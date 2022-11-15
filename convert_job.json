@@ -1,0 +1,9 @@
+[
+{
+	"in": "Footprint.mscz",
+	"out": [
+		"Footprint.pdf",
+		"Footprint.mid"
+	]
+}
+]
