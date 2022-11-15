@@ -1,0 +1,1 @@
+"C:\Program Files\MuseScore 3\bin\MuseScore3.exe" -j convert_job.json
