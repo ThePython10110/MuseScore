@@ -4,7 +4,7 @@ filetypes = ["MP3", "MIDI", "PDF"]
 
 json_output = []
 
-with open("last_modified.json", "r") as json_file:
+with open("last_changed.json", "r") as json_file:
     old_changes = json.load(json_file)
 
 new_changes = old_changes
@@ -45,9 +45,7 @@ for root, dirs, files in os.walk("MuseScore"):
 
 
 with open("convert_job.json", "w") as json_file:
-    json.dump(json_output, json_file, indent=2)
-
-subprocess.call(r'"C:\Program Files\MuseScore 3\bin\MuseScore3.exe" -j convert_job.json')
+    json.dump(json_output, json_file)
 
 with open("last_modified.json", "w+") as json_file:
-    json.dump(new_changes, json_file, indent=2)
+    json.dump(new_changes, json_file)
