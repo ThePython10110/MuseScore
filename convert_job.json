@@ -1,1 +1,227 @@
-[]
+[
+  {
+    "in": "MuseScore\\HFF\\Clear Sky & Labor Guitar.mscz",
+    "out": [
+      "MP3\\HFF\\Clear Sky & Labor Guitar.mp3",
+      "MIDI\\HFF\\Clear Sky & Labor Guitar.midi",
+      "PDF\\HFF\\Clear Sky & Labor Guitar.pdf",
+      "MSCX\\HFF\\Clear Sky & Labor Guitar.mscx"
+    ]
+  },
+  {
+    "in": "MuseScore\\HFF\\Clear Sky.mscz",
+    "out": [
+      "MP3\\HFF\\Clear Sky.mp3",
+      "MIDI\\HFF\\Clear Sky.midi",
+      "PDF\\HFF\\Clear Sky.pdf",
+      "MSCX\\HFF\\Clear Sky.mscx"
+    ]
+  },
+  {
+    "in": "MuseScore\\HFF\\Dark Theme.mscz",
+    "out": [
+      "MP3\\HFF\\Dark Theme.mp3",
+      "MIDI\\HFF\\Dark Theme.midi",
+      "PDF\\HFF\\Dark Theme.pdf",
+      "MSCX\\HFF\\Dark Theme.mscx"
+    ]
+  },
+  {
+    "in": "MuseScore\\HFF\\Don't_Leave.mscz",
+    "out": [
+      "MP3\\HFF\\Don't_Leave.mp3",
+      "MIDI\\HFF\\Don't_Leave.midi",
+      "PDF\\HFF\\Don't_Leave.pdf",
+      "MSCX\\HFF\\Don't_Leave.mscx"
+    ]
+  },
+  {
+    "in": "MuseScore\\HFF\\Footprint.mscz",
+    "out": [
+      "MP3\\HFF\\Footprint.mp3",
+      "MIDI\\HFF\\Footprint.midi",
+      "PDF\\HFF\\Footprint.pdf",
+      "MSCX\\HFF\\Footprint.mscx"
+    ]
+  },
+  {
+    "in": "MuseScore\\HFF\\Forest_Theme_(Human_Fall_Flat).mscz",
+    "out": [
+      "MP3\\HFF\\Forest_Theme_(Human_Fall_Flat).mp3",
+      "MIDI\\HFF\\Forest_Theme_(Human_Fall_Flat).midi",
+      "PDF\\HFF\\Forest_Theme_(Human_Fall_Flat).pdf",
+      "MSCX\\HFF\\Forest_Theme_(Human_Fall_Flat).mscx"
+    ]
+  },
+  {
+    "in": "MuseScore\\HFF\\Human_Fall_Flat_Medley.mscz",
+    "out": [
+      "MP3\\HFF\\Human_Fall_Flat_Medley.mp3",
+      "MIDI\\HFF\\Human_Fall_Flat_Medley.midi",
+      "PDF\\HFF\\Human_Fall_Flat_Medley.pdf",
+      "MSCX\\HFF\\Human_Fall_Flat_Medley.mscx"
+    ]
+  },
+  {
+    "in": "MuseScore\\HFF\\Labor (MAJOR KEY).mscz",
+    "out": [
+      "MP3\\HFF\\Labor (MAJOR KEY).mp3",
+      "MIDI\\HFF\\Labor (MAJOR KEY).midi",
+      "PDF\\HFF\\Labor (MAJOR KEY).pdf",
+      "MSCX\\HFF\\Labor (MAJOR KEY).mscx"
+    ]
+  },
+  {
+    "in": "MuseScore\\HFF\\Labor.mscz",
+    "out": [
+      "MP3\\HFF\\Labor.mp3",
+      "MIDI\\HFF\\Labor.midi",
+      "PDF\\HFF\\Labor.pdf",
+      "MSCX\\HFF\\Labor.mscx"
+    ]
+  },
+  {
+    "in": "MuseScore\\HFF\\Sail Away.mscz",
+    "out": [
+      "MP3\\HFF\\Sail Away.mp3",
+      "MIDI\\HFF\\Sail Away.midi",
+      "PDF\\HFF\\Sail Away.pdf",
+      "MSCX\\HFF\\Sail Away.mscx"
+    ]
+  },
+  {
+    "in": "MuseScore\\HFF\\Steam.mscz",
+    "out": [
+      "MP3\\HFF\\Steam.mp3",
+      "MIDI\\HFF\\Steam.midi",
+      "PDF\\HFF\\Steam.pdf",
+      "MSCX\\HFF\\Steam.mscx"
+    ]
+  },
+  {
+    "in": "MuseScore\\HFF\\Test of Time.mscz",
+    "out": [
+      "MP3\\HFF\\Test of Time.mp3",
+      "MIDI\\HFF\\Test of Time.midi",
+      "PDF\\HFF\\Test of Time.pdf",
+      "MSCX\\HFF\\Test of Time.mscx"
+    ]
+  },
+  {
+    "in": "MuseScore\\HFF\\Tomorrow.mscz",
+    "out": [
+      "MP3\\HFF\\Tomorrow.mp3",
+      "MIDI\\HFF\\Tomorrow.midi",
+      "PDF\\HFF\\Tomorrow.pdf",
+      "MSCX\\HFF\\Tomorrow.mscx"
+    ]
+  },
+  {
+    "in": "MuseScore\\HFF\\Unknown.mscz",
+    "out": [
+      "MP3\\HFF\\Unknown.mp3",
+      "MIDI\\HFF\\Unknown.midi",
+      "PDF\\HFF\\Unknown.pdf",
+      "MSCX\\HFF\\Unknown.mscx"
+    ]
+  },
+  {
+    "in": "MuseScore\\Leo\\Cousin's Harbor.mscz",
+    "out": [
+      "MP3\\Leo\\Cousin's Harbor.mp3",
+      "MIDI\\Leo\\Cousin's Harbor.midi",
+      "PDF\\Leo\\Cousin's Harbor.pdf",
+      "MSCX\\Leo\\Cousin's Harbor.mscx"
+    ]
+  },
+  {
+    "in": "MuseScore\\Leo\\Title Screen.mscz",
+    "out": [
+      "MP3\\Leo\\Title Screen.mp3",
+      "MIDI\\Leo\\Title Screen.midi",
+      "PDF\\Leo\\Title Screen.pdf",
+      "MSCX\\Leo\\Title Screen.mscx"
+    ]
+  },
+  {
+    "in": "MuseScore\\Leo\\Traps and Thorns.mscz",
+    "out": [
+      "MP3\\Leo\\Traps and Thorns.mp3",
+      "MIDI\\Leo\\Traps and Thorns.midi",
+      "PDF\\Leo\\Traps and Thorns.pdf",
+      "MSCX\\Leo\\Traps and Thorns.mscx"
+    ]
+  },
+  {
+    "in": "MuseScore\\Leo\\Trickery Trail.mscz",
+    "out": [
+      "MP3\\Leo\\Trickery Trail.mp3",
+      "MIDI\\Leo\\Trickery Trail.midi",
+      "PDF\\Leo\\Trickery Trail.pdf",
+      "MSCX\\Leo\\Trickery Trail.mscx"
+    ]
+  },
+  {
+    "in": "MuseScore\\Other\\Big Disc Energy.mscz",
+    "out": [
+      "MP3\\Other\\Big Disc Energy.mp3",
+      "MIDI\\Other\\Big Disc Energy.midi",
+      "PDF\\Other\\Big Disc Energy.pdf",
+      "MSCX\\Other\\Big Disc Energy.mscx"
+    ]
+  },
+  {
+    "in": "MuseScore\\Other\\Blind John the Harper.mscz",
+    "out": [
+      "MP3\\Other\\Blind John the Harper.mp3",
+      "MIDI\\Other\\Blind John the Harper.midi",
+      "PDF\\Other\\Blind John the Harper.pdf",
+      "MSCX\\Other\\Blind John the Harper.mscx"
+    ]
+  },
+  {
+    "in": "MuseScore\\Other\\Disc_Golf_Valley_Theme.mscz",
+    "out": [
+      "MP3\\Other\\Disc_Golf_Valley_Theme.mp3",
+      "MIDI\\Other\\Disc_Golf_Valley_Theme.midi",
+      "PDF\\Other\\Disc_Golf_Valley_Theme.pdf",
+      "MSCX\\Other\\Disc_Golf_Valley_Theme.mscx"
+    ]
+  },
+  {
+    "in": "MuseScore\\Other\\Dolphin Coast.mscz",
+    "out": [
+      "MP3\\Other\\Dolphin Coast.mp3",
+      "MIDI\\Other\\Dolphin Coast.midi",
+      "PDF\\Other\\Dolphin Coast.pdf",
+      "MSCX\\Other\\Dolphin Coast.mscx"
+    ]
+  },
+  {
+    "in": "MuseScore\\Wintergatan\\Marble Machine FLIPPED.mscz",
+    "out": [
+      "MP3\\Wintergatan\\Marble Machine FLIPPED.mp3",
+      "MIDI\\Wintergatan\\Marble Machine FLIPPED.midi",
+      "PDF\\Wintergatan\\Marble Machine FLIPPED.pdf",
+      "MSCX\\Wintergatan\\Marble Machine FLIPPED.mscx"
+    ]
+  },
+  {
+    "in": "MuseScore\\Wintergatan\\Marble Machine Piano Version.mscz",
+    "out": [
+      "MP3\\Wintergatan\\Marble Machine Piano Version.mp3",
+      "MIDI\\Wintergatan\\Marble Machine Piano Version.midi",
+      "PDF\\Wintergatan\\Marble Machine Piano Version.pdf",
+      "MSCX\\Wintergatan\\Marble Machine Piano Version.mscx"
+    ]
+  },
+  {
+    "in": "MuseScore\\Wintergatan\\Marble_Machine__Molin_Martin.mscz",
+    "out": [
+      "MP3\\Wintergatan\\Marble_Machine__Molin_Martin.mp3",
+      "MIDI\\Wintergatan\\Marble_Machine__Molin_Martin.midi",
+      "PDF\\Wintergatan\\Marble_Machine__Molin_Martin.pdf",
+      "MSCX\\Wintergatan\\Marble_Machine__Molin_Martin.mscx"
+    ]
+  }
+]
