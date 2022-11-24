@@ -2,151 +2,151 @@
   {
     "in": "MuseScore\\HFF\\Clear Sky & Labor Guitar.mscz",
     "out": [
-      "MXL\\HFF\\Clear Sky & Labor Guitar.mxl"
+      "MusicXML\\HFF\\Clear Sky & Labor Guitar.musicxml"
     ]
   },
   {
     "in": "MuseScore\\HFF\\Clear Sky.mscz",
     "out": [
-      "MXL\\HFF\\Clear Sky.mxl"
+      "MusicXML\\HFF\\Clear Sky.musicxml"
     ]
   },
   {
     "in": "MuseScore\\HFF\\Dark Theme.mscz",
     "out": [
-      "MXL\\HFF\\Dark Theme.mxl"
+      "MusicXML\\HFF\\Dark Theme.musicxml"
     ]
   },
   {
     "in": "MuseScore\\HFF\\Don't_Leave.mscz",
     "out": [
-      "MXL\\HFF\\Don't_Leave.mxl"
+      "MusicXML\\HFF\\Don't_Leave.musicxml"
     ]
   },
   {
     "in": "MuseScore\\HFF\\Footprint.mscz",
     "out": [
-      "MXL\\HFF\\Footprint.mxl"
+      "MusicXML\\HFF\\Footprint.musicxml"
     ]
   },
   {
     "in": "MuseScore\\HFF\\Forest_Theme_(Human_Fall_Flat).mscz",
     "out": [
-      "MXL\\HFF\\Forest_Theme_(Human_Fall_Flat).mxl"
+      "MusicXML\\HFF\\Forest_Theme_(Human_Fall_Flat).musicxml"
     ]
   },
   {
     "in": "MuseScore\\HFF\\Human_Fall_Flat_Medley.mscz",
     "out": [
-      "MXL\\HFF\\Human_Fall_Flat_Medley.mxl"
+      "MusicXML\\HFF\\Human_Fall_Flat_Medley.musicxml"
     ]
   },
   {
     "in": "MuseScore\\HFF\\Labor (MAJOR KEY).mscz",
     "out": [
-      "MXL\\HFF\\Labor (MAJOR KEY).mxl"
+      "MusicXML\\HFF\\Labor (MAJOR KEY).musicxml"
     ]
   },
   {
     "in": "MuseScore\\HFF\\Labor.mscz",
     "out": [
-      "MXL\\HFF\\Labor.mxl"
+      "MusicXML\\HFF\\Labor.musicxml"
     ]
   },
   {
     "in": "MuseScore\\HFF\\Sail Away.mscz",
     "out": [
-      "MXL\\HFF\\Sail Away.mxl"
+      "MusicXML\\HFF\\Sail Away.musicxml"
     ]
   },
   {
     "in": "MuseScore\\HFF\\Steam.mscz",
     "out": [
-      "MXL\\HFF\\Steam.mxl"
+      "MusicXML\\HFF\\Steam.musicxml"
     ]
   },
   {
     "in": "MuseScore\\HFF\\Test of Time.mscz",
     "out": [
-      "MXL\\HFF\\Test of Time.mxl"
+      "MusicXML\\HFF\\Test of Time.musicxml"
     ]
   },
   {
     "in": "MuseScore\\HFF\\Tomorrow.mscz",
     "out": [
-      "MXL\\HFF\\Tomorrow.mxl"
+      "MusicXML\\HFF\\Tomorrow.musicxml"
     ]
   },
   {
     "in": "MuseScore\\HFF\\Unknown.mscz",
     "out": [
-      "MXL\\HFF\\Unknown.mxl"
+      "MusicXML\\HFF\\Unknown.musicxml"
     ]
   },
   {
     "in": "MuseScore\\Leo\\Cousin's Harbor.mscz",
     "out": [
-      "MXL\\Leo\\Cousin's Harbor.mxl"
+      "MusicXML\\Leo\\Cousin's Harbor.musicxml"
     ]
   },
   {
     "in": "MuseScore\\Leo\\Title Screen.mscz",
     "out": [
-      "MXL\\Leo\\Title Screen.mxl"
+      "MusicXML\\Leo\\Title Screen.musicxml"
     ]
   },
   {
     "in": "MuseScore\\Leo\\Traps and Thorns.mscz",
     "out": [
-      "MXL\\Leo\\Traps and Thorns.mxl"
+      "MusicXML\\Leo\\Traps and Thorns.musicxml"
     ]
   },
   {
     "in": "MuseScore\\Leo\\Trickery Trail.mscz",
     "out": [
-      "MXL\\Leo\\Trickery Trail.mxl"
+      "MusicXML\\Leo\\Trickery Trail.musicxml"
     ]
   },
   {
     "in": "MuseScore\\Other\\Big Disc Energy.mscz",
     "out": [
-      "MXL\\Other\\Big Disc Energy.mxl"
+      "MusicXML\\Other\\Big Disc Energy.musicxml"
     ]
   },
   {
     "in": "MuseScore\\Other\\Blind John the Harper.mscz",
     "out": [
-      "MXL\\Other\\Blind John the Harper.mxl"
+      "MusicXML\\Other\\Blind John the Harper.musicxml"
     ]
   },
   {
     "in": "MuseScore\\Other\\Disc_Golf_Valley_Theme.mscz",
     "out": [
-      "MXL\\Other\\Disc_Golf_Valley_Theme.mxl"
+      "MusicXML\\Other\\Disc_Golf_Valley_Theme.musicxml"
     ]
   },
   {
     "in": "MuseScore\\Other\\Dolphin Coast.mscz",
     "out": [
-      "MXL\\Other\\Dolphin Coast.mxl"
+      "MusicXML\\Other\\Dolphin Coast.musicxml"
     ]
   },
   {
     "in": "MuseScore\\Wintergatan\\Marble Machine FLIPPED.mscz",
     "out": [
-      "MXL\\Wintergatan\\Marble Machine FLIPPED.mxl"
+      "MusicXML\\Wintergatan\\Marble Machine FLIPPED.musicxml"
     ]
   },
   {
     "in": "MuseScore\\Wintergatan\\Marble Machine Piano Version.mscz",
     "out": [
-      "MXL\\Wintergatan\\Marble Machine Piano Version.mxl"
+      "MusicXML\\Wintergatan\\Marble Machine Piano Version.musicxml"
     ]
   },
   {
     "in": "MuseScore\\Wintergatan\\Marble_Machine__Molin_Martin.mscz",
     "out": [
-      "MXL\\Wintergatan\\Marble_Machine__Molin_Martin.mxl"
+      "MusicXML\\Wintergatan\\Marble_Machine__Molin_Martin.musicxml"
     ]
   }
 ]

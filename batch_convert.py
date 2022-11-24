@@ -1,6 +1,6 @@
 import os, json, subprocess
 
-filetypes = ["MP3", "MIDI", "PDF", "MSCX", "MXL"]                   #https://musescore.org/en/handbook/3/command-line-options#Batch_conversion_job_JSON_format for a list of file types
+filetypes = ["MP3", "MIDI", "PDF", "MSCX", "MXL", "MusicXML"]                   #https://musescore.org/en/handbook/3/command-line-options#Batch_conversion_job_JSON_format for a list of file types
 
 json_output = []
 
