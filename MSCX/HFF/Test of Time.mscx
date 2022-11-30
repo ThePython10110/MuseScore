@@ -85,6 +85,9 @@
       <instrument id="trumpet">
         <family id="trumpets">Trumpets</family>
         </instrument>
+      <instrument id="tuba">
+        <family id="tubas">Tubas</family>
+        </instrument>
       <section id="woodwind" brackets="true" showSystemMarkings="true" barLineSpan="true" thinBrackets="true">
         <family>flutes</family>
         <family>oboes</family>
@@ -729,15 +732,15 @@
         <hideWhenEmpty>1</hideWhenEmpty>
         </Staff>
       <trackName>Contrabass Trombone?</trackName>
-      <Instrument id="contrabass-trombone">
-        <longName>Contrabass Trombone?</longName>
-        <shortName>Cb. Tbn.?</shortName>
-        <trackName>Contrabass Trombone</trackName>
-        <minPitchP>28</minPitchP>
-        <maxPitchP>58</maxPitchP>
+      <Instrument id="tuba">
+        <longName>Tuba</longName>
+        <shortName>Tba.</shortName>
+        <trackName>Tuba</trackName>
+        <minPitchP>22</minPitchP>
+        <maxPitchP>72</maxPitchP>
         <minPitchA>28</minPitchA>
-        <maxPitchA>55</maxPitchA>
-        <instrumentId>brass.trombone.contrabass</instrumentId>
+        <maxPitchA>58</maxPitchA>
+        <instrumentId>brass.tuba</instrumentId>
         <clef>F</clef>
         <Articulation>
           <velocity>100</velocity>
@@ -779,21 +782,13 @@
           <velocity>120</velocity>
           <gateTime>100</gateTime>
           </Articulation>
-        <Channel name="open">
+        <Channel>
           <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
-          <program value="57"/>
+          <program value="58"/>
           <synti>Fluid</synti>
           <midiPort>0</midiPort>
           <midiChannel>6</midiChannel>
-          </Channel>
-        <Channel name="mute">
-          <controller ctrl="0" value="0"/>
-          <controller ctrl="32" value="17"/>
-          <program value="59"/>
-          <synti>Fluid</synti>
-          <midiPort>1</midiPort>
-          <midiChannel>4</midiChannel>
           </Channel>
         </Instrument>
       </Part>
@@ -6546,6 +6541,9 @@
             <velocity>33</velocity>
             <offset x="-2.58196" y="3.36065"/>
             </Dynamic>
+          <StaffText>
+            <text>Looks really messy... sorry.</text>
+            </StaffText>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
@@ -12324,9 +12322,6 @@
         </Measure>
       <Measure>
         <voice>
-          <StaffText>
-            <text>Not a tuba.... ???</text>
-            </StaffText>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -12541,6 +12536,9 @@
             <subtype>mf</subtype>
             <velocity>80</velocity>
             </Dynamic>
+          <StaffText>
+            <text>Probably should spit this into separate instruments or something.</text>
+            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -13455,11 +13453,6 @@
             <subtype>p</subtype>
             <velocity>49</velocity>
             </Dynamic>
-          <StaffText>
-            <minDistance>0.190185</minDistance>
-            <offset x="-34.9829" y="-2.12421"/>
-            <text>Just saying, I know basically nothing about drums...</text>
-            </StaffText>
           <Beam>
             </Beam>
           <Chord>
@@ -13490,11 +13483,6 @@
         </Measure>
       <Measure>
         <voice>
-          <StaffText>
-            <minDistance>0.190185</minDistance>
-            <offset x="-5.88649" y="-3.9314"/>
-            <text>And I'm not quite sure what kind these are (M29)</text>
-            </StaffText>
           <Beam>
             </Beam>
           <Chord>
@@ -14411,9 +14399,6 @@
             <subtype>f</subtype>
             <velocity>96</velocity>
             </Dynamic>
-          <StaffText>
-            <text>Probably somewhat unreadable (I know basically nothing about drums as I said before), but it sounds right.</text>
-            </StaffText>
           <Beam>
             </Beam>
           <Chord>
@@ -21562,9 +21547,6 @@
         </Measure>
       <Measure>
         <voice>
-          <StaffText>
-            <text>Probably wrong (looks unplayable)</text>
-            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Note>

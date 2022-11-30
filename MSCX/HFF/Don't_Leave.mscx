@@ -93,6 +93,7 @@
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
+        <hideWhenEmpty>1</hideWhenEmpty>
         </Staff>
       <trackName>Flute</trackName>
       <Instrument id="flute">
@@ -161,7 +162,7 @@
           </StaffType>
         <defaultConcertClef>F</defaultConcertClef>
         <defaultTransposingClef>G</defaultTransposingClef>
-        <bracket type="0" span="2" col="0"/>
+        <hideWhenEmpty>1</hideWhenEmpty>
         <barLineSpan>1</barLineSpan>
         </Staff>
       <trackName>Horn in C</trackName>
@@ -241,6 +242,7 @@
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
+        <hideWhenEmpty>1</hideWhenEmpty>
         </Staff>
       <trackName>Oboe</trackName>
       <Instrument id="oboe">
@@ -308,7 +310,8 @@
           <name>stdNormal</name>
           </StaffType>
         <defaultClef>F</defaultClef>
-        <bracket type="0" span="3" col="0"/>
+        <hideWhenEmpty>1</hideWhenEmpty>
+        <bracket type="1" span="3" col="0"/>
         <barLineSpan>1</barLineSpan>
         </Staff>
       <Staff id="5">
@@ -386,6 +389,7 @@
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
+        <hideWhenEmpty>1</hideWhenEmpty>
         <bracket type="0" span="5" col="0"/>
         </Staff>
       <trackName>Strings 1</trackName>
@@ -468,6 +472,7 @@
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
+        <hideWhenEmpty>1</hideWhenEmpty>
         </Staff>
       <trackName>Strings 2</trackName>
       <Instrument id="strings">
@@ -549,6 +554,7 @@
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
+        <hideWhenEmpty>1</hideWhenEmpty>
         </Staff>
       <trackName>Strings 3</trackName>
       <Instrument id="strings">
@@ -630,6 +636,7 @@
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
+        <hideWhenEmpty>1</hideWhenEmpty>
         </Staff>
       <trackName>Strings 4</trackName>
       <Instrument id="strings">
@@ -712,6 +719,7 @@
           <name>stdNormal</name>
           </StaffType>
         <defaultClef>F</defaultClef>
+        <hideWhenEmpty>1</hideWhenEmpty>
         </Staff>
       <trackName>Strings 5</trackName>
       <Instrument id="strings">
@@ -17802,7 +17810,7 @@
             </Chord>
           <StaffText>
             <offset x="-7" y="-1"/>
-            <text>Recognize this from somewhere? If not... you haven't heard the end of Footprint in Stone.</text>
+            <text>Recognize this from somewhere? This is the same ending as Footprint in Stone.</text>
             </StaffText>
           <Dynamic>
             <subtype>mf</subtype>

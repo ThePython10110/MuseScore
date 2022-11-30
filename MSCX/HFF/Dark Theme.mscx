@@ -4996,6 +4996,7 @@
           <Dynamic>
             <subtype>ppp</subtype>
             <velocity>16</velocity>
+            <visible>0</visible>
             </Dynamic>
           <Spanner type="HairPin">
             <prev>
@@ -7116,6 +7117,7 @@
           <Dynamic>
             <subtype>ppp</subtype>
             <velocity>16</velocity>
+            <visible>0</visible>
             </Dynamic>
           <Spanner type="HairPin">
             <prev>
@@ -8925,6 +8927,7 @@
           <Dynamic>
             <subtype>ppp</subtype>
             <velocity>16</velocity>
+            <visible>0</visible>
             </Dynamic>
           <Spanner type="HairPin">
             <prev>

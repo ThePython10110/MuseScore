@@ -4,13 +4,14 @@
   <identification>
     <encoding>
       <software>MuseScore 3.6.2</software>
-      <encoding-date>2022-11-24</encoding-date>
+      <encoding-date>2022-11-29</encoding-date>
       <supports element="accidental" type="yes"/>
       <supports element="beam" type="yes"/>
       <supports element="print" attribute="new-page" type="yes" value="yes"/>
       <supports element="print" attribute="new-system" type="yes" value="yes"/>
       <supports element="stem" type="yes"/>
       </encoding>
+    <source>https://musescore.com/user/33601670/scores/9088991</source>
     </identification>
   <defaults>
     <scaling>
