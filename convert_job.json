@@ -1,57 +1,13 @@
 [
   {
-    "in": "MuseScore\\HFF\\Dark Theme.mscz",
+    "in": "MuseScore\\HFF\\Attitude.mscz",
     "out": [
-      "MP3\\HFF\\Dark Theme.mp3",
-      "MIDI\\HFF\\Dark Theme.midi",
-      "PDF\\HFF\\Dark Theme.pdf",
-      "MSCX\\HFF\\Dark Theme.mscx",
-      "MXL\\HFF\\Dark Theme.mxl",
-      "MusicXML\\HFF\\Dark Theme.musicxml"
-    ]
-  },
-  {
-    "in": "MuseScore\\HFF\\Don't_Leave.mscz",
-    "out": [
-      "MP3\\HFF\\Don't_Leave.mp3",
-      "MIDI\\HFF\\Don't_Leave.midi",
-      "PDF\\HFF\\Don't_Leave.pdf",
-      "MSCX\\HFF\\Don't_Leave.mscx",
-      "MXL\\HFF\\Don't_Leave.mxl",
-      "MusicXML\\HFF\\Don't_Leave.musicxml"
-    ]
-  },
-  {
-    "in": "MuseScore\\HFF\\Test of Time.mscz",
-    "out": [
-      "MP3\\HFF\\Test of Time.mp3",
-      "MIDI\\HFF\\Test of Time.midi",
-      "PDF\\HFF\\Test of Time.pdf",
-      "MSCX\\HFF\\Test of Time.mscx",
-      "MXL\\HFF\\Test of Time.mxl",
-      "MusicXML\\HFF\\Test of Time.musicxml"
-    ]
-  },
-  {
-    "in": "MuseScore\\HFF\\Tomorrow.mscz",
-    "out": [
-      "MP3\\HFF\\Tomorrow.mp3",
-      "MIDI\\HFF\\Tomorrow.midi",
-      "PDF\\HFF\\Tomorrow.pdf",
-      "MSCX\\HFF\\Tomorrow.mscx",
-      "MXL\\HFF\\Tomorrow.mxl",
-      "MusicXML\\HFF\\Tomorrow.musicxml"
-    ]
-  },
-  {
-    "in": "MuseScore\\Wintergatan\\Marble Machine FLIPPED.mscz",
-    "out": [
-      "MP3\\Wintergatan\\Marble Machine FLIPPED.mp3",
-      "MIDI\\Wintergatan\\Marble Machine FLIPPED.midi",
-      "PDF\\Wintergatan\\Marble Machine FLIPPED.pdf",
-      "MSCX\\Wintergatan\\Marble Machine FLIPPED.mscx",
-      "MXL\\Wintergatan\\Marble Machine FLIPPED.mxl",
-      "MusicXML\\Wintergatan\\Marble Machine FLIPPED.musicxml"
+      "MP3\\HFF\\Attitude.mp3",
+      "MIDI\\HFF\\Attitude.midi",
+      "PDF\\HFF\\Attitude.pdf",
+      "MSCX\\HFF\\Attitude.mscx",
+      "MXL\\HFF\\Attitude.mxl",
+      "MusicXML\\HFF\\Attitude.musicxml"
     ]
   }
 ]
