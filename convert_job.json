@@ -9,5 +9,16 @@
       "MXL\\HFF\\Attitude.mxl",
       "MusicXML\\HFF\\Attitude.musicxml"
     ]
+  },
+  {
+    "in": "MuseScore\\HFF\\Human Fall Flat Christmas Medley.mscz",
+    "out": [
+      "MP3\\HFF\\Human Fall Flat Christmas Medley.mp3",
+      "MIDI\\HFF\\Human Fall Flat Christmas Medley.midi",
+      "PDF\\HFF\\Human Fall Flat Christmas Medley.pdf",
+      "MSCX\\HFF\\Human Fall Flat Christmas Medley.mscx",
+      "MXL\\HFF\\Human Fall Flat Christmas Medley.mxl",
+      "MusicXML\\HFF\\Human Fall Flat Christmas Medley.musicxml"
+    ]
   }
 ]
