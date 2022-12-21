@@ -1,24 +1,24 @@
 [
   {
-    "in": "MuseScore\\HFF\\Attitude.mscz",
+    "in": "MuseScore\\HFF\\City.mscz",
     "out": [
-      "MP3\\HFF\\Attitude.mp3",
-      "MIDI\\HFF\\Attitude.midi",
-      "PDF\\HFF\\Attitude.pdf",
-      "MSCX\\HFF\\Attitude.mscx",
-      "MXL\\HFF\\Attitude.mxl",
-      "MusicXML\\HFF\\Attitude.musicxml"
+      "MP3\\HFF\\City.mp3",
+      "MIDI\\HFF\\City.midi",
+      "PDF\\HFF\\City.pdf",
+      "MSCX\\HFF\\City.mscx",
+      "MXL\\HFF\\City.mxl",
+      "MusicXML\\HFF\\City.musicxml"
     ]
   },
   {
-    "in": "MuseScore\\HFF\\Human Fall Flat Christmas Medley.mscz",
+    "in": "MuseScore\\HFF\\Stand Up.mscz",
     "out": [
-      "MP3\\HFF\\Human Fall Flat Christmas Medley.mp3",
-      "MIDI\\HFF\\Human Fall Flat Christmas Medley.midi",
-      "PDF\\HFF\\Human Fall Flat Christmas Medley.pdf",
-      "MSCX\\HFF\\Human Fall Flat Christmas Medley.mscx",
-      "MXL\\HFF\\Human Fall Flat Christmas Medley.mxl",
-      "MusicXML\\HFF\\Human Fall Flat Christmas Medley.musicxml"
+      "MP3\\HFF\\Stand Up.mp3",
+      "MIDI\\HFF\\Stand Up.midi",
+      "PDF\\HFF\\Stand Up.pdf",
+      "MSCX\\HFF\\Stand Up.mscx",
+      "MXL\\HFF\\Stand Up.mxl",
+      "MusicXML\\HFF\\Stand Up.musicxml"
     ]
   }
 ]
