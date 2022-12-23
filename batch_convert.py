@@ -36,7 +36,10 @@ with open("convert_job.json", "w") as json_file:                    #Write to th
 subprocess.call(r'"C:\Program Files\MuseScore 3\bin\MuseScore3.exe" -j convert_job.json') #Convert!
 
 subprocess.call(r'midiflip.cmd -i "MIDI/**/*.midi" -o "FlippedMIDI"') #Flip all MIDI files, using https://github.com/1j01/midiflip
-# Unfortunately, there's no easy way to keep the MIDI file in a reasonable octave. I know how I would implement this
-# (but not specifically enough): Find the highest and lowest note of each instrument, then transpose the flipped version
-# by octaves to get it as close as possible to the original range. If anyone knows of (or creates) a tool that does this,
-# please let me know (via an issue, discussion, PR, whatever).
+
+"""
+Unfortunately, there's no easy way to keep the MIDI file in a reasonable octave. I know how I would implement this
+but not specifically enough): Find the highest and lowest note of each instrument, then transpose the flipped version
+by octaves to get it as close as possible to the original range. If anyone knows of (or creates) a tool that does this,
+please let me know (via an issue, discussion, PR, whatever).
+"""
