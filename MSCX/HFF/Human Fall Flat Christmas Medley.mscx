@@ -35,12 +35,6 @@
       <instrument id="c-horn">
         <family id="horns">Horns</family>
         </instrument>
-      <instrument id="drumset">
-        <family id="drums">Drums</family>
-        </instrument>
-      <instrument id="electric-guitar">
-        <family id="guitars">Guitars</family>
-        </instrument>
       <instrument id="flute">
         <family id="flutes">Flutes</family>
         </instrument>
@@ -58,12 +52,6 @@
         </instrument>
       <instrument id="strings">
         <family id="orchestral-strings">Orchestral Strings</family>
-        </instrument>
-      <instrument id="tambourine">
-        <family id="other-percussion">Other Percussion</family>
-        </instrument>
-      <instrument id="trombone">
-        <family id="trombones">Trombones</family>
         </instrument>
       <instrument id="trumpet">
         <family id="trumpets">Trumpets</family>

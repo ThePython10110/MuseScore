@@ -1,1 +1,0 @@
-Automatically generated MusicXML files
