@@ -11,7 +11,7 @@ jobs:
         uses: actions/checkout@v3
       - name: Install MuseScore (Snap)
         run: sudo snap install musescore
-      - find / mscore
+      - run: find / mscore
       - name: Install MIDIflip (NodeJS)
         run: npm install midiflip
       - name: Prepare JSON file
