@@ -9,6 +9,8 @@ jobs:
         uses: actions/setup-node@v3
       - name: Checkout repository
         uses: actions/checkout@v3
+      - name: Install PortAudio so it doesn't fail
+        run: sudo apt-get install libportaudio2
       - name: Install MuseScore (Snap)
         run: sudo snap install musescore
       #- run: export $PATH="/snap/musescore/228/usr/bin:$PATH" #Not sure why this isn't working...
