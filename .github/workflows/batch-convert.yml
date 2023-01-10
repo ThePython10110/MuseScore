@@ -12,7 +12,7 @@ jobs:
       - name: Update apt
         run: sudo apt update
       - name: Install PortAudio so it doesn't fail
-        run: sudo apt install libportaudio0
+        run: sudo apt install libportaudio2
       - name: Install MuseScore (Snap)
         run: sudo snap install musescore
       #- run: export $PATH="/snap/musescore/228/usr/bin:$PATH" #Not sure why this isn't working...
