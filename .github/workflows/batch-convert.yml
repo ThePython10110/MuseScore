@@ -10,7 +10,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
       - name: Update apt
-        run: apt update
+        run: sudo apt update
       - name: Install PortAudio so it doesn't fail
         run: sudo apt install libportaudio0
       - name: Install MuseScore (Snap)
