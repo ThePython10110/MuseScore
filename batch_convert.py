@@ -5,7 +5,7 @@ filetypes = ["MP3", "MIDI", "PDF", "MSCX", "MXL", "MusicXML"]       # https://mu
 json_output = {"3":[],"4":[]}
 
 print("Generating JSON...")
-for root, dirs, files in itertools.chain(os.walk("MuseScore3"))#, os.walk("MuseScore4")):              #For every item in .\MuseScore3 or .\MuseScore4:
+for root, dirs, files in itertools.chain(os.walk("MuseScore3")):#, os.walk("MuseScore4")):              #For every item in .\MuseScore3 or .\MuseScore4:
     for name in files:                                              #For every file:
         if name.endswith(".mscz") and "Private" not in root:        #If it's a .mscz file and not in any folder called "Private"
             print(f"\tScanning {root}\\{name}")

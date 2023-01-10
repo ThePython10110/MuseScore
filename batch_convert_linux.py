@@ -5,7 +5,7 @@ filetypes = ["MP3", "MIDI", "PDF", "MSCX", "MXL", "MusicXML"]       # https://mu
 json_output = {"3":[],"4":[]}
 
 print("Generating JSON...")
-for root, dirs, files in itertools.chain(os.walk("MuseScore3"))#, os.walk("MuseScore4")):              #For every item in .\MuseScore3 or .\MuseScore4:
+for root, dirs, files in itertools.chain(os.walk("MuseScore3")):#, os.walk("MuseScore4")):              #For every item in .\MuseScore3 or .\MuseScore4:
     for name in files:                                              #For every file:
         if name.endswith(".mscz") and "Private" not in root:        #If it's a .mscz file and not in any folder called "Private"
             print(f"\tScanning {root}/{name}")
@@ -15,7 +15,7 @@ for root, dirs, files in itertools.chain(os.walk("MuseScore3"))#, os.walk("MuseS
             filenames = []
             score_modified = os.path.getmtime(path)                 #Get the time the score was modified
             for filetype in filetypes:                              #For every filetype:
-                new_dir = root.replace("MuseScore" + version, filetype, 1)   #Replace the first instance of "MuseScore3" or "MuseScore4" in the path with the filetype (MuseScore4\HFF would become PDF\HFF, for example)
+                new_dir = root.replace("MuseScore" + version, "Output/" + filetype, 1)   #Replace the first instance of "MuseScore3" or "MuseScore4" in the path with the filetype (MuseScore4\HFF would become PDF\HFF, for example)
                 if not os.path.exists(new_dir):                     #If the folder doesn't exist:
                     os.makedirs(new_dir)                            #Create it.
                 new_filename = os.path.join(new_dir, no_extension + "." + filetype.lower()) #Generate the new file path (such as PDF\HFF\Tomorrow.pdf)
@@ -45,15 +45,15 @@ print("\nWriting JSON files...")
 with open("convert_job3.json", "w") as json_file:                    #Write to the JSON file
     json.dump(json_output["3"], json_file, indent=2)
 
-#with open("convert_job4.json", "w") as json_file:                    #Write to the JSON file
-#    json.dump(json_output["4"], json_file, indent=2)
+##with open("convert_job4.json", "w") as json_file:                    #Write to the JSON file
+##    json.dump(json_output["4"], json_file, indent=2)
 
-print("\nConverting MuseScore 3 scores (takes several minutes)...")
-subprocess.call(r'mscore -j convert_job3.json') #Convert!
+#print("\nConverting MuseScore 3 scores (takes several minutes)...")
+#subprocess.call(r'mscore -j convert_job3.json') #Convert!
 
-print("\nFlipping MIDI files...")
+#print("\nFlipping MIDI files...")
 
-try:
-    subprocess.call(r'midiflip -i "./MIDI/**/*.midi" -o "FlippedMIDI"') #Flip all MIDI files, using https://github.com/1j01/midiflip
-except FileNotFoundError:
-    print("Midiflip not found.")
+#try:
+#    subprocess.call(r'midiflip -i "./MIDI/**/*.midi" -o "FlippedMIDI"') #Flip all MIDI files, using https://github.com/1j01/midiflip
+#except FileNotFoundError:
+#    print("Midiflip not found.")
