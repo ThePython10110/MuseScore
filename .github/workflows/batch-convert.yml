@@ -11,13 +11,12 @@ jobs:
         uses: actions/checkout@v3
       - name: Install MuseScore (Snap)
         run: sudo snap install musescore
-      - run: find /snap/musescore -name mscore
-      #- run: export $PATH="/snap/musescore/228/usr/bin:$PATH"
-      #- name: Install MIDIflip (NodeJS)
-      #  run: npm install midiflip
-      #- name: Prepare JSON file
-      #  run: python batch_convert_linux.py
-      #- name: Convert MuseScore files
-      #  run: mscore -j convert_job3.json
-      #- name: MIDIflip
-      #  run: midiflip midiflip -i "./MIDI/**/*.midi" -o "Output/FlippedMIDI"
+      - run: export $PATH="/snap/musescore/228/usr/bin:$PATH" #Not sure why this isn't working...
+      - name: Install MIDIflip (NodeJS)
+        run: npm install midiflip
+      - name: Prepare JSON file
+        run: python batch_convert_linux.py
+      - name: Convert MuseScore files
+        run: /snap/musescore/228/usr/bin/mscore -j convert_job3.json #So I'm using the absolute path.
+      - name: MIDIflip
+        run: midiflip midiflip -i "./MIDI/**/*.midi" -o "Output/FlippedMIDI"
