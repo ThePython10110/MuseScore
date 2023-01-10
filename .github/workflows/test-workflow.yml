@@ -7,6 +7,6 @@ jobs:
     steps:
       - uses: actions/setup-node@v3
       - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
       - run: sudo snap install musescore
-      - run: npm install midiflip
-      - run: ls
+      - run: ls node_modules
