@@ -1,0 +1,12 @@
+name: Batch Convert Github Actions Test
+run-name: ${{github.actor}} started a batch convert.
+on: [push]
+jobs:
+  Convert:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v3
+      - run: sudo snap install musescore
+      - run: npm install midiflip
+      - run: ls

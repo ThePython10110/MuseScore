@@ -5,7 +5,7 @@ filetypes = ["MP3", "MIDI", "PDF", "MSCX", "MXL", "MusicXML"]       # https://mu
 json_output = {"3":[],"4":[]}
 
 print("Generating JSON...")
-for root, dirs, files in itertools.chain(os.walk("MuseScore3"), os.walk("MuseScore4")):              #For every item in .\MuseScore3 or .\MuseScore4:
+for root, dirs, files in itertools.chain(os.walk("MuseScore3"))#, os.walk("MuseScore4")):              #For every item in .\MuseScore3 or .\MuseScore4:
     for name in files:                                              #For every file:
         if name.endswith(".mscz") and "Private" not in root:        #If it's a .mscz file and not in any folder called "Private"
             print(f"\tScanning {root}\\{name}")
@@ -32,27 +32,27 @@ for root, dirs, files in itertools.chain(os.walk("MuseScore3"), os.walk("MuseSco
                     "out": filenames
                 })
 
-print("\nChecking for duplicates...")
-
-for score in json_output["3"]:
-    modified_score = {"in": score["in"].replace("MuseScore3", "MuseScore4"), "out": score["out"]}
-    if modified_score in json_output["4"]:
-        print(f"\tDuplicate score {modified_score['in']} detected, using MuseScore 4 version.")
-        json_output["3"].remove(score)
+##print("\nChecking for duplicates...")
+##
+##for score in json_output["3"]:
+##    modified_score = {"in": score["in"].replace("MuseScore3", "MuseScore4"), "out": score["out"]}
+##    if modified_score in json_output["4"]:
+##        print(f"\tDuplicate score {modified_score['in']} detected, using MuseScore 4 version.")
+##        json_output["3"].remove(score)
 
 print("\nWriting JSON files...")
 
 with open("convert_job3.json", "w") as json_file:                    #Write to the JSON file
     json.dump(json_output["3"], json_file, indent=2)
 
-with open("convert_job4.json", "w") as json_file:                    #Write to the JSON file
-    json.dump(json_output["4"], json_file, indent=2)
+#with open("convert_job4.json", "w") as json_file:                    #Write to the JSON file
+#    json.dump(json_output["4"], json_file, indent=2)
 
 print("\nConverting MuseScore 3 scores (takes several minutes)...")
 subprocess.call(r'"C:\Program Files\MuseScore 3\bin\MuseScore3.exe" -j convert_job3.json') #Convert!
 
-print("\nConverting MuseScore 4 scores (takes several minutes)...")
-subprocess.call(r'"C:\Program Files\MuseScore 4\bin\MuseScore4.exe" -j convert_job4.json') #Convert!
+#print("\nConverting MuseScore 4 scores (takes several minutes)...")
+#subprocess.call(r"C:\Program Files\MuseScore 4\bin\MuseScore4.exe" -j convert_job4.json') #Convert!
 
 print("\nFlipping MIDI files...")
 
@@ -63,10 +63,3 @@ except FileNotFoundError:
 Install it with NodeJS with npm install midiflip\n\nIt should install to %UserProfile%\\node_modules\\.bin\\midiflip.cmd")
 
 input("\n(Press ENTER to exit)")
-
-"""
-Unfortunately, there's no easy way to keep the MIDI file in a reasonable octave. I know how I would implement this
-but not specifically enough): Find the highest and lowest note of each instrument, then transpose the flipped version
-by octaves to get it as close as possible to the original range. If anyone knows of (or creates) a tool that does this,
-please let me know (via an issue, discussion, PR, whatever).
-"""
