@@ -10,7 +10,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
       - name: Install MuseScore (Snap)
-        run: sudo snap install musescore
+      - run: sudo snap install musescore
       - name: find /snap/musescore -name mscore
       #- run: export $PATH="/snap/musescore/228/usr/bin:$PATH"
       #- name: Install MIDIflip (NodeJS)
