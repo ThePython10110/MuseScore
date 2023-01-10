@@ -12,7 +12,7 @@ jobs:
       - name: Update apt
         run: sudo apt update
       - name: Install various apt packages so MuseScore works
-        run: sudo apt install libportaudio2 libportmidi-dev libpulse-dev libqt5quick5 libqt5xml5 libQt5XmlPatterns5 #Why does this need QT? It doesn't have to load the GUI.
+        run: sudo apt install libportaudio2 libportmidi-dev libpulse-dev libqt5quick5 libqt5xml5 libqt5xmlpatterns5 #Why does this need QT? It doesn't have to load the GUI.
       - name: Install MuseScore (Snap)
         run: sudo snap install musescore
       #- run: export $PATH="/snap/musescore/228/usr/bin:$PATH" #Not sure why this isn't working...
