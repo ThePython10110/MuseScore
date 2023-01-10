@@ -9,6 +9,8 @@ jobs:
         uses: actions/setup-node@v3
       - name: Checkout repository
         uses: actions/checkout@v3
+      - name: Add universe to apt just in case
+        run: sudo apt-add-repository universe
       - name: Update apt
         run: sudo apt update
       - name: Install various apt packages so MuseScore works
