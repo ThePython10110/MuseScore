@@ -1,0 +1,19 @@
+name: Automatic Batch Conversion
+run-name: ${{github.actor}} started a batch conversion job.
+on: push
+jobs:
+  Batch convert:
+    runs-on: windows-latest
+    steps:
+      - name: Set up NodeJS
+        uses: actions/setup-node@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+      - name: Install MuseScore
+        run: winget install musescore --version 3.6.2.548021803 #So much less work than what I was doing before...
+      - name: Install MIDIflip (NodeJS)
+        run: npm install midiflip
+      - name: Convert!
+        run: python batch_convert.py
