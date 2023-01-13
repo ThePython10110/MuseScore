@@ -11,11 +11,13 @@ jobs:
         uses: actions/checkout@v3
       - name: Set up Python
         uses: actions/setup-python@v4
-      - name: Install Winget maybe
-        run: .\install-winget-maybe.ps1
-      - name: Install MuseScore
-        run: winget install musescore --version 3.6.2.548021803
+      - name: Download MuseScore Portable
+        run: Invoke-WebRequest -URI https://portableapps.com/downloading/?a=MuseScorePortable&s=s&p=&d=pa&n=MuseScore%20Portable&f=MuseScorePortable_3.6.2.paf.exe -OutFile MuseScoreInstaller.exe
+      - name: Install MuseScore Portable
+        run: MuseScoreInstaller.exe
       - name: Install MIDIflip (NodeJS)
         run: npm install midiflip
+      - name: List files (to hopefully find MuseScore portable)
+        run: ls
       - name: Convert!
         run: python batch_convert.py
