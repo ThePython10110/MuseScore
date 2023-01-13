@@ -18,7 +18,7 @@ jobs:
       - name: Install MuseScore
         run: sudo ./MuseScore.AppImage install
       - name: Find MuseScore
-        run: sudo find /usr/local name mscore
+        run: sudo find /usr/local name mscore | grep mscore
       - name: Install MIDIflip (NodeJS)
         run: npm install midiflip
       - name: Prepare JSON file
