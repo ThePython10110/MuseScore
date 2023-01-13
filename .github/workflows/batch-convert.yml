@@ -9,6 +9,8 @@ jobs:
         uses: actions/setup-node@v3
       - name: Checkout repository
         uses: actions/checkout@v3
+      - name: Update apt, I guess.
+        run: sudo apt update
       - name: Install various apt packages so MuseScore works
         run: sudo apt install libfuse2 libjack-dev libegl-dev
       - name: Download MuseScore 3.6.2 (GitHub AppImage)
