@@ -11,10 +11,10 @@ jobs:
         uses: actions/checkout@v3
       - name: Set up Python
         uses: actions/setup-python@v4
-      - name: Download MuseScore Portable
-        run: Invoke-WebRequest -URI https://portableapps.com/downloading/?a=MuseScorePortable&s=s&p=&d=pa&n=MuseScore%20Portable&f=MuseScorePortable_3.6.2.paf.exe -OutFile MuseScoreInstaller.exe
-      - name: Install MuseScore Portable
-        run: MuseScoreInstaller.exe
+      - name: Download MuseScore
+        run: Invoke-WebRequest -URI https://github.com/musescore/MuseScore/releases/download/v3.6.2/MuseScore-3.6.2.548021803-x86_64.msi -OutFile MuseScoreInstaller.msi
+      - name: Install MuseScore
+        run: MuseScoreInstaller.msi
       - name: Install MIDIflip (NodeJS)
         run: npm install midiflip
       - name: List files (to hopefully find MuseScore portable)
