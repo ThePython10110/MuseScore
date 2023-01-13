@@ -17,12 +17,13 @@ jobs:
         run: chmod +x MuseScore.AppImage
       - name: Install MuseScore
         run: sudo ./MuseScore.AppImage install
-      #- run: export $PATH="/snap/musescore/228/usr/bin:$PATH" #Not sure why this isn't working...
+      - name: Find MuseScore
+        run: sudo find /usr/local name mscore
       - name: Install MIDIflip (NodeJS)
         run: npm install midiflip
       - name: Prepare JSON file
         run: python batch_convert_linux.py
       - name: Convert MuseScore files
-        run: /snap/musescore/228/usr/bin/mscore -j convert_job3.json #So I'm using the absolute path.
+        run: /usr/local/bin/mscore -j convert_job3.json
       - name: MIDIflip
         run: midiflip midiflip -i "./MIDI/**/*.midi" -o "Output/FlippedMIDI"
