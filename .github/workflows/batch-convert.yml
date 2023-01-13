@@ -2,7 +2,7 @@ name: Automatic Batch Conversion
 run-name: ${{github.actor}} started a batch conversion job.
 on: push
 jobs:
-  Batch convert:
+  Batch-Convert:
     runs-on: windows-latest
     steps:
       - name: Set up NodeJS
