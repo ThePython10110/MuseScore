@@ -12,7 +12,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
       - name: Install Winget maybe
-        run: irm "https://github.com/al-cheb/winget_install_script/blob/main/Install-WinGet.ps1" | iex
+        run: .\install-winget-maybe.ps1
       - name: Install MuseScore
         run: winget install musescore --version 3.6.2.548021803
       - name: Install MIDIflip (NodeJS)
