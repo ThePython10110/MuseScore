@@ -17,7 +17,5 @@ jobs:
         run: .\MuseScoreInstaller.msi
       - name: Install MIDIflip (NodeJS)
         run: npm install midiflip
-      - name: List files (to hopefully find MuseScore portable)
-        run: ls
       - name: Convert!
         run: python batch_convert.py
