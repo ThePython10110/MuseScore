@@ -1,4 +1,4 @@
-import os, json, subprocess, itertools, sys, argparse
+import os, json, subprocess, itertools, sys, argparse, time
 
 arg_parser = argparse.ArgumentParser()
 arg_parser.add_argument("-3", "--nomusescore3", action='count', help="Don't include MuseScore3 folder")
@@ -51,6 +51,7 @@ for root, dirs, files in itertools.chain(*[os.walk(folder) for folder in folders
                     new_dir = root.replace("MuseScore" + version, filetype, 1)   #Replace the first instance of "MuseScore3" or "MuseScore4" in the path with the filetype (MuseScore4\HFF would become PDF\HFF, for example)
                 if not os.path.exists(new_dir):                     #If the folder doesn't exist:
                     os.makedirs(new_dir)                            #Create it.
+                new_dir = os.path.abspath(new_dir)
                 new_filename = os.path.join(new_dir, no_extension + "." + filetype.lower()) #Generate the new file path (such as PDF\HFF\Tomorrow.pdf)
                 if not args.full:
                     try:
@@ -64,7 +65,7 @@ for root, dirs, files in itertools.chain(*[os.walk(folder) for folder in folders
                     filenames.append(new_filename)
             if filenames:                                           #If there is anything to convert:
                 json_output[version].append({                       #Add it to the JSON output
-                    "in": path,
+                    "in": os.path.abspath(path),
                     "out": filenames
                 })
 
@@ -83,23 +84,28 @@ print("\nWriting JSON files...")
 if not args.nomusescore3:
     with open("convert_job3.json", "w") as json_file:                    #Write to the JSON file
         json.dump(json_output["3"], json_file, indent=2)
-        print("\nConverting MuseScore 3 scores (takes several minutes)...")
-        subprocess.call(r'"C:\Program Files\MuseScore 3\bin\MuseScore3.exe" -j convert_job3.json') #Convert!
-
 if not args.nomusescore4:
     with open("convert_job4.json", "w") as json_file:                    #Write to the JSON file
         json.dump(json_output["4"], json_file, indent=2)
-        print("\nConverting MuseScore 4 scores (takes several minutes)...")
-        subprocess.call(r'"C:\Program Files\MuseScore 4\bin\MuseScore4.exe" -j convert_job4.json') #Convert!
+
+if not args.nomusescore3:
+    print("\nConverting MuseScore 3 scores (takes several minutes)...")
+    os.system(r'"C:\Program Files\MuseScore 3\bin\MuseScore3.exe" --job convert_job3.json') #Convert!
+if not args.nomusescore4:
+    print("\nConverting MuseScore 4 scores (takes several minutes)...")
+    os.system(r'"C:\Program Files\MuseScore 4\bin\MuseScore4.exe" --job convert_job4.json') #Convert!
+
+#while not os.path.isfile(json_output["3"][-1]["out"][-1]):
+#    time.sleep("10") #For some reason conversion takes place in the background now, and I don't know why.
 
 print("\nFlipping MIDI files...")
 
 try:
-    subprocess.call(r'midiflip.cmd -i "'+ (output if output else '.') + '/MIDI/**/*.midi" -o ' + (output if output else '.') + '"/FlippedMIDI"') #Flip all MIDI files, using https://github.com/1j01/midiflip
+    os.system(r'midiflip.cmd -i "'+ (output if output else '.') + '/MIDI/**/*.midi" -o ' + (output if output else '.') + '"/FlippedMIDI"') #Flip all MIDI files, using https://github.com/1j01/midiflip
 except FileNotFoundError:
     print("Midiflip is not on PATH.")
     try:
-        subprocess.call(r'%UserProfile%\\node_modules\\.bin\\midiflip.cmd -i "'+ (output if output else '.') + '/MIDI/**/*.midi" -o ' + (output if output else '.') + '"/FlippedMIDI"') #Flip all MIDI files, using https://github.com/1j01/midiflip
+        os.system(r'%UserProfile%\\node_modules\\.bin\\midiflip.cmd -i "'+ (output if output else '.') + '/MIDI/**/*.midi" -o ' + (output if output else '.') + '"/FlippedMIDI"') #Flip all MIDI files, using https://github.com/1j01/midiflip
     except FileNotFoundError:
         print("Midiflip is not installed. Install it with NodeJS with npm install midiflip\n\nIt should install to %UserProfile%\\node_modules\\.bin\\midiflip.cmd")
 
