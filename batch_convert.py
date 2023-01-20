@@ -21,9 +21,19 @@ if not args.nomusescore4:
     folders.append("MuseScore4")
 if not folders:
     print("Nothing to scan!")
-    
+
+output = args.output
 print("Scanning files...")
-    
+
+
+def list_files(startpath):
+    for root, dirs, files in os.walk(startpath):
+        level = root.replace(startpath, '').count(os.sep)
+        indent = ' ' * 4 * (level)
+        print('{}{}/'.format(indent, os.path.basename(root)))
+        subindent = ' ' * 4 * (level + 1)
+        for f in files:
+            print('{}{}'.format(subindent, f))
 
 for root, dirs, files in itertools.chain(*[os.walk(folder) for folder in folders]):
     for name in files:                                              #For every file:
@@ -35,7 +45,7 @@ for root, dirs, files in itertools.chain(*[os.walk(folder) for folder in folders
             filenames = []
             score_modified = os.path.getmtime(path)                 #Get the time the score was modified
             for filetype in filetypes:                              #For every filetype:
-                if args.output:
+                if output:
                     new_dir = root.replace("MuseScore" + version, output + "\\" + filetype, 1)
                 else:
                     new_dir = root.replace("MuseScore" + version, filetype, 1)   #Replace the first instance of "MuseScore3" or "MuseScore4" in the path with the filetype (MuseScore4\HFF would become PDF\HFF, for example)
@@ -73,25 +83,27 @@ print("\nWriting JSON files...")
 if not args.nomusescore3:
     with open("convert_job3.json", "w") as json_file:                    #Write to the JSON file
         json.dump(json_output["3"], json_file, indent=2)
-        print("\nConverting MuseScore 4 scores (takes several minutes)...")
+        print("\nConverting MuseScore 3 scores (takes several minutes)...")
         subprocess.call(r'"C:\Program Files\MuseScore 3\bin\MuseScore3.exe" -j convert_job3.json') #Convert!
 
 if not args.nomusescore4:
     with open("convert_job4.json", "w") as json_file:                    #Write to the JSON file
         json.dump(json_output["4"], json_file, indent=2)
         print("\nConverting MuseScore 4 scores (takes several minutes)...")
-        subprocess.call(r"""cmd -c '"C:\Program Files\MuseScore 4\bin\MuseScore4.exe" -j convert_job4.json'""") #Convert!
+        subprocess.call(r'"C:\Program Files\MuseScore 4\bin\MuseScore4.exe" -j convert_job4.json') #Convert!
 
 print("\nFlipping MIDI files...")
 
 try:
-    subprocess.call(r'midiflip.cmd -i "'+ (args.output if args.output else '.') + '/MIDI/**/*.midi" -o ' + (args.output if args.output else '.') + '"/FlippedMIDI"') #Flip all MIDI files, using https://github.com/1j01/midiflip
+    subprocess.call(r'midiflip.cmd -i "'+ (output if output else '.') + '/MIDI/**/*.midi" -o ' + (output if output else '.') + '"/FlippedMIDI"') #Flip all MIDI files, using https://github.com/1j01/midiflip
 except FileNotFoundError:
     print("Midiflip is not on PATH.")
     try:
-        subprocess.call(r'%UserProfile%\\node_modules\\.bin\\midiflip.cmd -i "'+ (args.output if args.output else '.') + '/MIDI/**/*.midi" -o ' + (args.output if args.output else '.') + '"/FlippedMIDI"') #Flip all MIDI files, using https://github.com/1j01/midiflip
+        subprocess.call(r'%UserProfile%\\node_modules\\.bin\\midiflip.cmd -i "'+ (output if output else '.') + '/MIDI/**/*.midi" -o ' + (output if output else '.') + '"/FlippedMIDI"') #Flip all MIDI files, using https://github.com/1j01/midiflip
     except FileNotFoundError:
         print("Midiflip is not installed. Install it with NodeJS with npm install midiflip\n\nIt should install to %UserProfile%\\node_modules\\.bin\\midiflip.cmd")
 
 if not args.auto:
     input("\n(Press ENTER to exit)")
+else:
+    list_files((".\\" + output) if output else ".")
