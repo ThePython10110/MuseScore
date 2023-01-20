@@ -85,11 +85,11 @@ if not args.nomusescore4:
 print("\nFlipping MIDI files...")
 
 try:
-    subprocess.call(r'midiflip.cmd -i "'+ (output if output else '.') + '/MIDI/**/*.midi" -o ' + (output if output else '.') + '"/FlippedMIDI"') #Flip all MIDI files, using https://github.com/1j01/midiflip
+    subprocess.call(r'midiflip.cmd -i "'+ (args.output if args.output else '.') + '/MIDI/**/*.midi" -o ' + (args.output if args.output else '.') + '"/FlippedMIDI"') #Flip all MIDI files, using https://github.com/1j01/midiflip
 except FileNotFoundError:
     print("Midiflip is not on PATH.")
     try:
-        subprocess.call(r'%UserProfile%\\node_modules\\.bin\\midiflip.cmd -i "'+ (output if output else '.') + '/MIDI/**/*.midi" -o ' + (output if output else '.') + '"/FlippedMIDI"') #Flip all MIDI files, using https://github.com/1j01/midiflip
+        subprocess.call(r'%UserProfile%\\node_modules\\.bin\\midiflip.cmd -i "'+ (args.output if args.output else '.') + '/MIDI/**/*.midi" -o ' + (args.output if args.output else '.') + '"/FlippedMIDI"') #Flip all MIDI files, using https://github.com/1j01/midiflip
     except FileNotFoundError:
         print("Midiflip is not installed. Install it with NodeJS with npm install midiflip\n\nIt should install to %UserProfile%\\node_modules\\.bin\\midiflip.cmd")
 
