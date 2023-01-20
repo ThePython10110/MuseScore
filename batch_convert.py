@@ -1,11 +1,11 @@
 import os, json, subprocess, itertools, sys, argparse
 
 arg_parser = argparse.ArgumentParser()
-arg_parser.add_argument("-3", "--nomusescore3", action='store_true', help="Don't include MuseScore3 folder")
-arg_parser.add_argument("-4", "--nomusescore4", action='store_true', help="Don't include MuseScore4 folder")
+arg_parser.add_argument("-3", "--nomusescore3", action='count', help="Don't include MuseScore3 folder")
+arg_parser.add_argument("-4", "--nomusescore4", action='count', help="Don't include MuseScore4 folder")
 arg_parser.add_argument("-o", "--output", help="Output folder")
-arg_parser.add_argument("-a", "--auto", action='store_true', help="Automatic (GitHub Actions)")
-arg_parser.add_argument("-f", "--full", action='store_true', help="Full convert, ignore date checking")
+arg_parser.add_argument("-a", "--auto", action='count', help="Automatic (GitHub Actions)")
+arg_parser.add_argument("-f", "--full", action='count', help="Full convert, ignore date checking")
 args = arg_parser.parse_args()
 
 
