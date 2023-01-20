@@ -106,4 +106,4 @@ except FileNotFoundError:
 if not args.auto:
     input("\n(Press ENTER to exit)")
 else:
-    list_files((".\\" + output) if output else ".")
+    list_files(".")
