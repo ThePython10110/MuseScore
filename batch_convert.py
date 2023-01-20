@@ -32,27 +32,27 @@ for root, dirs, files in itertools.chain(os.walk("MuseScore3")):#, os.walk("Muse
                     "out": filenames
                 })
 
-##print("\nChecking for duplicates...")
-##
-##for score in json_output["3"]:
-##    modified_score = {"in": score["in"].replace("MuseScore3", "MuseScore4"), "out": score["out"]}
-##    if modified_score in json_output["4"]:
-##        print(f"\tDuplicate score {modified_score['in']} detected, using MuseScore 4 version.")
-##        json_output["3"].remove(score)
+print("\nChecking for duplicates...")
+
+for score in json_output["3"]:
+    modified_score = {"in": score["in"].replace("MuseScore3", "MuseScore4"), "out": score["out"]}
+    if modified_score in json_output["4"]:
+        print(f"\tDuplicate score {modified_score['in']} detected, using MuseScore 4 version.")
+        json_output["3"].remove(score)
 
 print("\nWriting JSON files...")
 
 with open("convert_job3.json", "w") as json_file:                    #Write to the JSON file
     json.dump(json_output["3"], json_file, indent=2)
 
-#with open("convert_job4.json", "w") as json_file:                    #Write to the JSON file
-#    json.dump(json_output["4"], json_file, indent=2)
+with open("convert_job4.json", "w") as json_file:                    #Write to the JSON file
+    json.dump(json_output["4"], json_file, indent=2)
 
-print("\nConverting MuseScore 3 scores (takes several minutes)...")
-subprocess.call(r'"C:\Program Files\MuseScore 3\bin\MuseScore3.exe" -j convert_job3.json') #Convert!
+#print("\nConverting MuseScore 3 scores (takes several minutes)...")
+#subprocess.call(r'"C:\Program Files\MuseScore 3\bin\MuseScore3.exe" -j convert_job3.json') #Convert!
 
-#print("\nConverting MuseScore 4 scores (takes several minutes)...")
-#subprocess.call(r"C:\Program Files\MuseScore 4\bin\MuseScore4.exe" -j convert_job4.json') #Convert!
+print("\nConverting MuseScore 4 scores (takes several minutes)...")
+subprocess.call(r"""cmd -c '"C:\Program Files\MuseScore 4\bin\MuseScore4.exe" -j convert_job4.json'""") #Convert!
 
 print("\nFlipping MIDI files...")
 
