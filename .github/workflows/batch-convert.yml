@@ -18,4 +18,4 @@ jobs:
       - name: Install MIDIflip (NodeJS)
         run: npm install midiflip
       - name: Convert!
-        run: python batch_convert.py --auto --output Output --nomusescore4
+        run: python batch_convert.py --auto --output Converted
