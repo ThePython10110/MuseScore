@@ -105,7 +105,7 @@ try:
 except FileNotFoundError:
     print("Midiflip is not on PATH.")
     try:
-        os.system(r'%UserProfile%\\node_modules\\.bin\\midiflip.cmd -i "'+ (output if output else '.') + '/MIDI/**/*.midi" -o ' + (output if output else '.') + '"/FlippedMIDI"') #Flip all MIDI files, using https://github.com/1j01/midiflip
+        os.system(r'.\\node_modules\\.bin\\midiflip.cmd -i "'+ (output if output else '.') + '/MIDI/**/*.midi" -o ' + (output if output else '.') + '"/FlippedMIDI"') #Flip all MIDI files, using https://github.com/1j01/midiflip
     except FileNotFoundError:
         print("Midiflip is not installed. Install it with NodeJS with npm install midiflip\n\nIt should install to %UserProfile%\\node_modules\\.bin\\midiflip.cmd")
 
