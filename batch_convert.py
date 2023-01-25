@@ -101,7 +101,12 @@ if not args.nomusescore4:
 print("\nFlipping MIDI files...")
 
 try:
-    os.system(r'midiflip.cmd -i "'+ (output if output else '.') + '/MIDI/**/*.midi" -o ' + (output if output else '.') + '"/FlippedMIDI"') #Flip all MIDI files, using https://github.com/1j01/midiflip
+    os.mkdir((output if output else ".") + r"\FlippedMIDI")
+except FileExistsError:
+    pass
+
+try:
+    os.system(r'midiflip.cmd -i "'+ (output if output else '.') + '/MIDI/**/*.midi" -o "' + (output if output else '.') + '/FlippedMIDI"') #Flip all MIDI files, using https://github.com/1j01/midiflip
 except FileNotFoundError:
     print("Midiflip is not on PATH.")
     try:
