@@ -48,9 +48,6 @@
       <instrument id="c-tuba">
         <family id="tubas">Tubas</family>
         </instrument>
-      <instrument id="claves">
-        <family id="unpitched-wooden-percussion">Unpitched Wooden Percussion</family>
-        </instrument>
       <instrument id="cymbal">
         <family id="unpitched-metal-percussion">Unpitched Metal Percussion</family>
         </instrument>
@@ -63,49 +60,22 @@
       <instrument id="harp">
         <family id="harps">Harps</family>
         </instrument>
-      <instrument id="horn">
-        <family id="horns">Horns</family>
-        </instrument>
-      <instrument id="metal-wind-chimes">
-        <family id="unpitched-metal-percussion">Unpitched Metal Percussion</family>
-        </instrument>
       <instrument id="oboe">
         <family id="oboes">Oboes</family>
+        </instrument>
+      <instrument id="piano">
+        <family id="keyboards">Keyboards</family>
         </instrument>
       <instrument id="piccolo">
         <family id="flutes">Flutes</family>
         </instrument>
-      <instrument id="snare-drum">
-        <family id="drums">Drums</family>
-        </instrument>
       <instrument id="strings">
         <family id="orchestral-strings">Orchestral Strings</family>
-        </instrument>
-      <instrument id="tambourine">
-        <family id="other-percussion">Other Percussion</family>
-        </instrument>
-      <instrument id="triangle">
-        <family id="unpitched-metal-percussion">Unpitched Metal Percussion</family>
-        </instrument>
-      <instrument id="trombone">
-        <family id="trombones">Trombones</family>
         </instrument>
       <instrument id="trumpet">
         <family id="trumpets">Trumpets</family>
         </instrument>
-      <instrument id="tuba">
-        <family id="tubas">Tubas</family>
-        </instrument>
-      <instrument id="tubular-bells">
-        <family id="pitched-percussion">Pitched Percussion</family>
-        </instrument>
       <instrument id="vibraphone">
-        <family id="keyboard-percussion">Keyboard Percussion</family>
-        </instrument>
-      <instrument id="voice">
-        <family id="voices">Voices</family>
-        </instrument>
-      <instrument id="xylophone">
         <family id="keyboard-percussion">Keyboard Percussion</family>
         </instrument>
       <section id="woodwind" brackets="true" showSystemMarkings="true" barLineSpan="true" thinBrackets="true">
