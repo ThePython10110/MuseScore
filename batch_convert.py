@@ -25,7 +25,7 @@ if not folders:
 output = args.output
 print("Scanning files...")
 
-
+"""
 def list_files(startpath):
     for root, dirs, files in os.walk(startpath):
         level = root.replace(startpath, '').count(os.sep)
@@ -94,6 +94,7 @@ if not args.nomusescore3:
 if not args.nomusescore4:
     print("\nConverting MuseScore 4 scores (takes several minutes)...")
     os.system(r'"C:\Program Files\MuseScore 4\bin\MuseScore4.exe" --job convert_job4.json') #Convert!
+"""
 
 print("\nFlipping MIDI files...")
 
@@ -104,15 +105,13 @@ except FileExistsError:
 
 try:
     print("Attempting to use midiflip on path")
-    print(os.system(r'midiflip -i "'+ (output if output else '.') + '/MIDI/**/*.midi" -o "' + (output if output else '.') + '/FlippedMIDI" -f')) #Flip all MIDI files, using my fork of https://github.com/1j01/midiflip
-except FileNotFoundError:
-    print("Midiflip is not on PATH.")
+    print(subprocess.run(["midiflip", "-i", (output if output else ".") + "/MIDI/**/*.midi", "-o", (output if output else ".") + "/FlippedMIDI", "-f"], shell=True, capture_output = True)) #Flip all MIDI files, using my fork of https://github.com/1j01/midiflip
+except:
+    print("Midiflip may not be on PATH.")
     try:
-        os.system(r'.\\node_modules\\.bin\\midiflip -i "'+ (output if output else '.') + '/MIDI/**/*.midi" -o ' + (output if output else '.') + '/FlippedMIDI" -f') #Flip all MIDI files, using my fork of https://github.com/1j01/midiflip
-    except FileNotFoundError:
-        print("Midiflip is not installed. Install it with NodeJS with npm install https://github.com/thepython10110/midiflip\n\nIt should install to %UserProfile%\\node_modules\\.bin\\midiflip.cmd")
-except Exception as e:
-    print(e)
+        print(subprocess.run([".\\node_modules\\.bin\\midiflip", "-i", (output if output else ".") + "/MIDI/**/*.midi", "-o", (output if output else ".") + "/FlippedMIDI", "-f"], shell = True, capture_output = True)) #Flip all MIDI files, using my fork of https://github.com/1j01/midiflip
+    except:
+        print("Midiflip may not be installed. Install it with NodeJS:\n\nnpm install https://github.com/thepython10110/midiflip\n\nIt should install to %UserProfile%\\node_modules\\.bin\\midiflip.cmd")
 
 if not args.auto:
     input("\n(Press ENTER to exit)")
