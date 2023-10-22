@@ -104,7 +104,7 @@ except FileExistsError:
 
 try:
     print("Attempting to use midiflip on path")
-    os.system(r'midiflip -i "'+ (output if output else '.') + '/MIDI/**/*.midi" -o "' + (output if output else '.') + '/FlippedMIDI" -f') #Flip all MIDI files, using my fork of https://github.com/1j01/midiflip
+    print(os.system(r'midiflip -i "'+ (output if output else '.') + '/MIDI/**/*.midi" -o "' + (output if output else '.') + '/FlippedMIDI" -f')) #Flip all MIDI files, using my fork of https://github.com/1j01/midiflip
 except FileNotFoundError:
     print("Midiflip is not on PATH.")
     try:
