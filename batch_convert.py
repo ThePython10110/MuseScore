@@ -103,15 +103,11 @@ try:
 except FileExistsError:
     pass
 
+# Convert files with https://github.com/thepython10110/midiflip
 try:
-    print("Attempting to use midiflip on path")
-    print(subprocess.run(["midiflip", "-i", (output if output else ".") + "/MIDI/**/*.midi", "-o", (output if output else ".") + "/FlippedMIDI", "-f"], shell=True, capture_output = True)) #Flip all MIDI files, using my fork of https://github.com/1j01/midiflip
-except:
-    print("Midiflip may not be on PATH.")
-    try:
-        print(subprocess.run([".\\node_modules\\.bin\\midiflip", "-i", (output if output else ".") + "/MIDI/**/*.midi", "-o", (output if output else ".") + "/FlippedMIDI", "-f"], shell = True, capture_output = True)) #Flip all MIDI files, using my fork of https://github.com/1j01/midiflip
-    except:
-        print("Midiflip may not be installed. Install it with NodeJS:\n\nnpm install https://github.com/thepython10110/midiflip\n\nIt should install to %UserProfile%\\node_modules\\.bin\\midiflip.cmd")
+    subprocess.call(["midiflip", "-i", (output if output else ".") + "/MIDI/**/*.midi", "-o", (output if output else ".") + "/FlippedMIDI", "-f"], shell = True))
+except FileNotFoundError:
+    subprocess.call([".\\node_modules\\.bin\\midiflip", "-i", (output if output else ".") + "/MIDI/**/*.midi", "-o", (output if output else ".") + "/FlippedMIDI", "-f"], shell = True))
 
 if not args.auto:
     input("\n(Press ENTER to exit)")
