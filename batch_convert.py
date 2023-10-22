@@ -107,11 +107,11 @@ except FileExistsError:
 try:
     print("Attempting to use midiflip on path...")
     subprocess.check_call(["midiflip", "-i", (output if output else ".") + "/MIDI/**/*.midi", "-o", (output if output else ".") + "/FlippedMIDI", "-f"], shell = True)
-except CalledProcessError:
+except subprocess.CalledProcessError:
     try:
         print("Failed.\nAttempting to use .\\node_module\\.bin\\midiflip")
         subprocess.check_call([".\\node_modules\\.bin\\midiflip", "-i", (output if output else ".") + "/MIDI/**/*.midi", "-o", (output if output else ".") + "/FlippedMIDI", "-f"], shell = True)
-    except CalledProcessError:
+    except subprocess.CalledProcessError:
         print("Error (is midiflip installed?)")
 
 if not args.auto:
