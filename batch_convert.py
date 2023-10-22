@@ -105,9 +105,9 @@ except FileExistsError:
 
 # Convert files with https://github.com/thepython10110/midiflip
 try:
-    subprocess.call(["midiflip", "-i", (output if output else ".") + "/MIDI/**/*.midi", "-o", (output if output else ".") + "/FlippedMIDI", "-f"], shell = True)
+    subprocess.check_call(["midiflip", "-i", (output if output else ".") + "/MIDI/**/*.midi", "-o", (output if output else ".") + "/FlippedMIDI", "-f"], shell = True)
 except FileNotFoundError:
-    subprocess.call([".\\node_modules\\.bin\\midiflip", "-i", (output if output else ".") + "/MIDI/**/*.midi", "-o", (output if output else ".") + "/FlippedMIDI", "-f"], shell = True)
+    subprocess.check_call([".\\node_modules\\.bin\\midiflip", "-i", (output if output else ".") + "/MIDI/**/*.midi", "-o", (output if output else ".") + "/FlippedMIDI", "-f"], shell = True)
 
 if not args.auto:
     input("\n(Press ENTER to exit)")
