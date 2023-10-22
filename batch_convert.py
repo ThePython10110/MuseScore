@@ -24,6 +24,7 @@ if not folders:
 
 output = args.output
 print("Scanning files...")
+print(r'midiflip.cmd -i "'+ (output if output else '.') + '/MIDI/**/*.midi" -o "' + (output if output else '.') + '/FlippedMIDI" -f')
 
 
 def list_files(startpath):
