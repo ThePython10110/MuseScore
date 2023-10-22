@@ -4,7 +4,7 @@ on: push
 jobs:
   Batch-Convert:
     runs-on: windows-latest
-    if: "!contains(github.event.head_commit.message, '|New automatic batch convert|')"
+    if: "!contains(github.event.head_commit.message, '|NoConvert|')"
     steps:
       - name: Set up NodeJS
         uses: actions/setup-node@v3
@@ -21,7 +21,7 @@ jobs:
           Invoke-WebRequest -URI https://github.com/musescore/MuseScore/releases/download/v4.0.1/MuseScore-4.0.1.230121751-x86_64.msi -OutFile MuseScore4Installer.msi
           .\MuseScore4Installer.msi -q
       - name: Install MIDIflip (NodeJS)
-        run: npm install midiflip
+        run: npm install https://github.com/ThePython10110/midiflip
       - name: Convert!
         run: python batch_convert.py --auto --output Converted
       - name: Commit to git
@@ -29,5 +29,5 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "<>" #No idea whether this will work, but I looked it up...
           git add .
-          git commit -m "|New automatic batch convert|"
+          git commit -m "Automatic conversion |NoConvert|"
           git push
