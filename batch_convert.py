@@ -25,7 +25,6 @@ if not folders:
 output = args.output
 print("Scanning files...")
 
-"""
 def list_files(startpath):
     for root, dirs, files in os.walk(startpath):
         level = root.replace(startpath, '').count(os.sep)
@@ -94,7 +93,6 @@ if not args.nomusescore3:
 if not args.nomusescore4:
     print("\nConverting MuseScore 4 scores (takes several minutes)...")
     os.system(r'"C:\Program Files\MuseScore 4\bin\MuseScore4.exe" --job convert_job4.json') #Convert!
-"""
 
 print("\nFlipping MIDI files...")
 
