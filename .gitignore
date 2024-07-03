@@ -1,0 +1,9 @@
+.mscbackup/
+Private/
+convert_job3.json
+convert_job4.json
+*.autosave
+*.msi
+package-lock.json
+package.json
+node_modules/
