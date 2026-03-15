@@ -1,5 +1,5 @@
 {
-    "activeSoundProfile": "Muse Sounds",
+    "activeSoundProfile": "MuseSounds",
     "aux": [
         {
             "out": {
@@ -340,7 +340,7 @@
                         "playbackSetupData": "keyboards.piano"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Keys\\Grand Piano\\167",
+                    "id": "167",
                     "type": "muse_sampler_sound_pack",
                     "vendor": "Muse Keys"
                 },

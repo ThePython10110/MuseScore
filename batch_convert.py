@@ -133,7 +133,8 @@ except FileExistsError:
     pass
 
 def midiflip(midiflip_path, output):
-    subprocess.check_call([midiflip_path, "-i", (output if output else ".") + "Converted/MIDI/**/*.midi", "-o", (output if output else ".") + "Converted/FlippedMIDI", "-f"], shell = True)
+    print(midiflip_path + " -i "+ (output if output else ".") + "/Converted/MIDI/**/*.midi -o " + (output if output else ".") + "/Converted/FlippedMIDI -f")
+    subprocess.check_call([midiflip_path, "-i", (output if output else ".") + "/Converted/MIDI/**/*.midi", "-o", (output if output else ".") + "/Converted/FlippedMIDI", "-f"], shell = True)
 
 
 # Convert files with https://github.com/thepython10110/midiflip
@@ -142,7 +143,7 @@ try:
     midiflip("midiflip", output)
 except subprocess.CalledProcessError:
     try:
-        print("Failed.\nAttempting to use .\\node_module\\.bin\\midiflip")
+        print("Failed.\nAttempting to use .\\node_modules\\.bin\\midiflip")
         midiflip(".\\node_modules\\.bin\\midiflip", output)
     except subprocess.CalledProcessError:
         try:

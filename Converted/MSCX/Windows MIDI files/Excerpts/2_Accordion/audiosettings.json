@@ -1,0 +1,92 @@
+{
+    "tracks": [
+        {
+            "instrumentId": "brass",
+            "partId": "7",
+            "soloMuteState": {
+                "mute": true,
+                "solo": false
+            }
+        },
+        {
+            "instrumentId": "guitar-steel",
+            "partId": "1",
+            "soloMuteState": {
+                "mute": true,
+                "solo": false
+            }
+        },
+        {
+            "instrumentId": "electric-guitar",
+            "partId": "2",
+            "soloMuteState": {
+                "mute": true,
+                "solo": false
+            }
+        },
+        {
+            "instrumentId": "alto-saxophone",
+            "partId": "8",
+            "soloMuteState": {
+                "mute": true,
+                "solo": false
+            }
+        },
+        {
+            "instrumentId": "accordion",
+            "partId": "4",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "instrumentId": "erhu",
+            "partId": "5",
+            "soloMuteState": {
+                "mute": true,
+                "solo": false
+            }
+        },
+        {
+            "instrumentId": "erhu",
+            "partId": "11",
+            "soloMuteState": {
+                "mute": true,
+                "solo": false
+            }
+        },
+        {
+            "instrumentId": "bb-trumpet",
+            "partId": "6",
+            "soloMuteState": {
+                "mute": true,
+                "solo": false
+            }
+        },
+        {
+            "instrumentId": "5-string-electric-bass",
+            "partId": "3",
+            "soloMuteState": {
+                "mute": true,
+                "solo": false
+            }
+        },
+        {
+            "instrumentId": "bass-guitar",
+            "partId": "9",
+            "soloMuteState": {
+                "mute": true,
+                "solo": false
+            }
+        },
+        {
+            "instrumentId": "drumset",
+            "partId": "10",
+            "soloMuteState": {
+                "mute": true,
+                "solo": false
+            }
+        }
+    ]
+}

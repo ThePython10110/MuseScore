@@ -1,0 +1,124 @@
+{
+    "tracks": [
+        {
+            "instrumentId": "electric-guitar",
+            "partId": "5",
+            "soloMuteState": {
+                "mute": true,
+                "solo": false
+            }
+        },
+        {
+            "instrumentId": "piano",
+            "partId": "11",
+            "soloMuteState": {
+                "mute": true,
+                "solo": false
+            }
+        },
+        {
+            "instrumentId": "glockenspiel",
+            "partId": "1",
+            "soloMuteState": {
+                "mute": true,
+                "solo": false
+            }
+        },
+        {
+            "instrumentId": "electric-piano",
+            "partId": "2",
+            "soloMuteState": {
+                "mute": true,
+                "solo": false
+            }
+        },
+        {
+            "instrumentId": "piano",
+            "partId": "9",
+            "soloMuteState": {
+                "mute": true,
+                "solo": false
+            }
+        },
+        {
+            "instrumentId": "square-synth",
+            "partId": "3",
+            "soloMuteState": {
+                "mute": true,
+                "solo": false
+            }
+        },
+        {
+            "instrumentId": "piano",
+            "partId": "4",
+            "soloMuteState": {
+                "mute": true,
+                "solo": false
+            }
+        },
+        {
+            "instrumentId": "bass-guitar",
+            "partId": "6",
+            "soloMuteState": {
+                "mute": true,
+                "solo": false
+            }
+        },
+        {
+            "instrumentId": "drumset",
+            "partId": "7",
+            "soloMuteState": {
+                "mute": true,
+                "solo": false
+            }
+        },
+        {
+            "instrumentId": "electric-guitar",
+            "partId": "12",
+            "soloMuteState": {
+                "mute": true,
+                "solo": false
+            }
+        },
+        {
+            "instrumentId": "flute",
+            "partId": "15",
+            "soloMuteState": {
+                "mute": true,
+                "solo": false
+            }
+        },
+        {
+            "instrumentId": "xylophone",
+            "partId": "8",
+            "soloMuteState": {
+                "mute": true,
+                "solo": false
+            }
+        },
+        {
+            "instrumentId": "vibraphone",
+            "partId": "14",
+            "soloMuteState": {
+                "mute": true,
+                "solo": false
+            }
+        },
+        {
+            "instrumentId": "drumset",
+            "partId": "10",
+            "soloMuteState": {
+                "mute": true,
+                "solo": false
+            }
+        },
+        {
+            "instrumentId": "electric-guitar",
+            "partId": "13",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        }
+    ]
+}

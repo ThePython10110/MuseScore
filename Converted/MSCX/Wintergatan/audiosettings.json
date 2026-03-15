@@ -1,0 +1,235 @@
+{
+    "activeSoundProfile": "MuseSounds",
+    "aux": [
+        {
+            "out": {
+                "balance": 0,
+                "fxChain": {
+                    "0": {
+                        "active": true,
+                        "chainOrder": 0,
+                        "resourceMeta": {
+                            "attributes": {
+                            },
+                            "hasNativeEditorSupport": true,
+                            "id": "Muse Reverb",
+                            "type": "muse_plugin",
+                            "vendor": "Muse"
+                        },
+                        "unitConfiguration": {
+                        }
+                    }
+                },
+                "volumeDb": 0
+            },
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "out": {
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        }
+    ],
+    "master": {
+        "balance": 0,
+        "fxChain": {
+        },
+        "volumeDb": 4.699999809265137
+    },
+    "tracks": [
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "playbackSetupData": "last.last.last",
+                        "soundFontName": "MS Basic"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "glockenspiel",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.6499999761581421
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": -3.299999952316284
+            },
+            "partId": "1",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "categories": "Instrument|Synth",
+                        "playbackSetupData": "last.last.last"
+                    },
+                    "hasNativeEditorSupport": true,
+                    "id": "LABS",
+                    "type": "vst_plugin",
+                    "vendor": "Spitfire Audio"
+                },
+                "unitConfiguration": {
+                    "componentState": "VnN0VwAAAAgAAAABAAAAAENjbksAACkxRkJDaAAAAAJTZkxiAAMHBQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKJlWQzIhVCgAADw/eG1sIHZlcnNpb249IjEuMCIgZW5jb2Rpbmc9IlVURi04Ij8+IDxMYWJzPjxNRVRBIGZhbWlseT0iTXVzaWMgQm94IiBuYW1lPSJIYW5uYWggUGVlbCdzIE11c2ljIEJveCIgcHJvZHVjdE1vZGU9IjAiIHZlcnNpb249IjEuMC4zIiB0YWdzPSIzMDEwMDAwOkV4cGVyaW1lbnRhbCIgbW9kaWZpZWQ9IjEiLz48VUkgdWlzaXplPSIxLjAiIHVpY29sbGFwc2VkPSIxIi8+PEFSVElDUz48U0VUVElORyBpZD0icF9zeW5jVG9UZW1wbyIgdmFsdWU9IjEiLz48U0VUVElORyBpZD0icF9keW5hbWljc1ZlbG9jaXR5TW9kZSIgdmFsdWU9IkNPTVBSRVNTRUQgVkVMT0NJVFkgSElHSCIvPjxTRVRUSU5HIGlkPSJwX3Nob3J0UlRNb2RlIiB2YWx1ZT0iLTIuMCIvPjxTRVRUSU5HIGlkPSJwX3ZlbG9jaXR5Q3VydmUiIHZhbHVlPSJMSU5FQVIgVkVMT0NJVFkiLz48U0VUVElORyBpZD0icF9xdWFudGlzZU1vZGUiIHZhbHVlPSIiLz48U0VUVElORyBpZD0icF9taXhlckFkdmFuY2VkIiB2YWx1ZT0iMSIvPjxTRVRUSU5HIGlkPSJwX21peGVyR2xvYmFsIiB2YWx1ZT0iMSIvPjxTRVRUSU5HIGlkPSJwX21peGVyTG9jayIgdmFsdWU9IjAiLz48U0VUVElORyBpZD0icF9taXhlclBhZ2UiIHZhbHVlPSIiLz48U0VUVElORyBpZD0icF9hcnRpY0xvY2siIHZhbHVlPSIwIi8+PFNFVFRJTkcgaWQ9InBfYXJ0aWNQYWdlIiB2YWx1ZT0iIi8+PFNFVFRJTkcgaWQ9InBfbGFzdFNlbGVjdGVkUHJpbWFyeUFydGljIiB2YWx1ZT0iMCIvPjxTRVRUSU5HIGlkPSJwX21pZGlDaGFubmVsIiB2YWx1ZT0iMCIvPjxTRVRUSU5HIGlkPSJwX3NlbGVjdGVkVGFncyIgdmFsdWU9IiIvPjxTRVRUSU5HIGlkPSJwX3NlbGVjdGVkSW5zdHJ1bWVudFRhZ3MiIHZhbHVlPSIiLz48U0VUVElORyBpZD0icF9maWx0ZXJQb3MiIHZhbHVlPSJbXSIvPjxTRVRUSU5HIGlkPSJwX3ByZXNldFBvcyIgdmFsdWU9IltdIi8+PFNFVFRJTkcgaWQ9InBfZXZvQ29udGFpbmVyUG9zIiB2YWx1ZT0iW10iLz48U0VUVElORyBpZD0icF9vY3RhdmUiIHZhbHVlPSIwIi8+PFNFVFRJTkcgaWQ9InBfb2Rlc3RJbmRpY2VzIiB2YWx1ZT0iMCwxLDIsMyw0LDUsNiw3LDgsOSwxMCwxMSwxMiwxMywxNCwxNSwxNiwxNywxOCwxOSwyMCwyMSwyMiwyMywyNCwyNSwyNiwyNywyOCwyOSwzMCwzMSwzMiwzMywzNCwzNSwzNiwzNywzOCwzOSw0MCw0MSw0Miw0Myw0NCw0NSw0Niw0Nyw0OCw0OSw1MCw1MSw1Miw1Myw1NCw1NSw1Niw1Nyw1OCw1OSw2MCw2MSw2Miw2Myw2NCw2NSw2Niw2Nyw2OCw2OSw3MCw3MSw3Miw3Myw3NCw3NSw3Niw3Nyw3OCw3OSw4MCw4MSw4Miw4Myw4NCw4NSw4Niw4Nyw4OCw4OSw5MCw5MSw5Miw5Myw5NCw5NSw5Niw5Nyw5OCw5OSwxMDAsMTAxLDEwMiwxMDMsMTA0LDEwNSwxMDYsMTA3LDEwOCwxMDksMTEwLDExMSwxMTIsMTEzLDExNCwxMTUsMTE2LDExNywxMTgsMTE5LDEyMCwxMjEsMTIyLDEyMywxMjQsMTI1LDEyNiwxMjcsMTI4LDEyOSwxMzAsMTMxLDEzMiwxMzMsMTM0LDEzNSwxMzYsMTM3LDEzOCwxMzksMTQwLDE0MSwxNDIsMTQzLDE0NCwxNDUsMTQ2LDE0NywxNDgsMTQ5LDE1MCwxNTEsMTUyLDE1MywxNTQsMTU1LDE1NiwxNTcsMTU4LDE1OSwxNjAsMTYxLDE2MiwxNjMsMTY0LDE2NSwxNjYsMTY3LDE2OCwxNjksMTcwLDE3MSwxNzIsMTczLDE3NCwxNzUsMTc2LDE3NywxNzgsMTc5LDE4MCwxODEsMTgyLDE4MywxODQsMTg1LDE4NiwxODcsMTg4LDE4OSwxOTAsMTkxLDE5MiwxOTMsMTk0LDE5NSwxOTYsMTk3LDE5OCwxOTksMjAwLDIwMSwyMDIsMjAzLDIwNCwyMDUsMjA2LDIwNywyMDgsMjA5LDIxMCwyMTEsMjEyLDIxMywyMTQsMjE1LDIxNiwyMTcsMjE4LDIxOSwyMjAsMjIxLDIyMiwyMjMsMjI0LDIyNSwyMjYsMjI3LDIyOCwyMjksMjMwLDIzMSwyMzIsMjMzLDIzNCwyMzUsMjM2LDIzNywyMzgsMjM5LDI0MCwyNDEsMjQyLDI0MywyNDQsMjQ1LDI0NiwyNDcsMjQ4LDI0OSwyNTAsMjUxLDI1MiwyNTMsMjU0LDI1NSwyNTYsMjU3LDI1OCwyNTksMjYwLDI2MSwyNjIsMjYzLDI2NCIvPjxTRVRUSU5HIGlkPSJwX3RpbWVTdHJldGNoIiB2YWx1ZT0iRGVmYXVsdCIvPjxTRVRUSU5HIGlkPSJwX3ZvaWNlQ2hva2UiIHZhbHVlPSIwLjAiLz48U0VUVElORyBpZD0icF9sb29wRW5kIiB2YWx1ZT0iMC4wIi8+PFNFVFRJTkcgaWQ9InBfZHluYW1pY1Ntb290aCIgdmFsdWU9IjAuMCIvPjxTRVRUSU5HIGlkPSJwX292ZXJyaWRlc1RvQXBwbHlJZCIgdmFsdWU9IiIvPjxBUlRJQz48U0VUVElORyBpZD0iYV9uYW1lIiB2YWx1ZT0iTEFCU19IYW5uYWhfUGVlbCdzX011c2ljX0JveCIvPjxTRVRUSU5HIGlkPSJhX3ZlcnNpb24iIHZhbHVlPSIxNjc3Nzk4NCIvPjxTRVRUSU5HIGlkPSJhX3RlbXBsYXRlSWR4IiB2YWx1ZT0iMCIvPjxTRVRUSU5HIGlkPSJhX3ZvaWNlTGltaXQiIHZhbHVlPSIxMjYiLz48U0VUVElORyBpZD0iYV9vZGVzdCIgdmFsdWU9IlJFVkVSQiIvPjxTRVRUSU5HIGlkPSJhX2FjdGl2ZSIgdmFsdWU9IjIiLz48U0VUVElORyBpZD0iYV9iYWNrQWN0aXZlIiB2YWx1ZT0iMCIvPjxTRVRUSU5HIGlkPSJhX2V2b092ZXJsYXkiIHZhbHVlPSIwIi8+PFNFVFRJTkcgaWQ9ImFfdHdvSGFuZGVkIiB2YWx1ZT0iMCIvPjxTRVRUSU5HIGlkPSJhX292ZXJyaWRlc1RvQXBwbHlJZCIgdmFsdWU9IiIvPjxTRVRUSU5HIGlkPSJhX2hhbGxUcmlnZ2VyTW9kZSIgdmFsdWU9Ii0xIi8+PFNFVFRJTkcgaWQ9ImFfYXV0b01ha2VVcCIgdmFsdWU9IjAiLz48U0VUVElORyBpZD0idF90eXBlIiB2YWx1ZT0iMCIvPjxTRVRUSU5HIGlkPSJ0X2VuYWJsZWQiIHZhbHVlPSIxIi8+PFNFVFRJTkcgaWQ9InRfbGF0Y2giIHZhbHVlPSIwIi8+PFNFVFRJTkcgaWQ9InRfa2V5c3dpdGNoIiB2YWx1ZT0iMCIvPjxTRVRUSU5HIGlkPSJ0X21pZGlDaGFubmVsIiB2YWx1ZT0iMSIvPjxTRVRUSU5HIGlkPSJ0X3ZlbEZyb20iIHZhbHVlPSIxIi8+PFNFVFRJTkcgaWQ9InRfdmVsVG8iIHZhbHVlPSIxMjciLz48U0VUVElORyBpZD0idF9jYyIgdmFsdWU9IjMyIi8+PFNFVFRJTkcgaWQ9InRfY2NWYWx1ZUZyb20iIHZhbHVlPSIwIi8+PFNFVFRJTkcgaWQ9InRfY2NWYWx1ZVRvIiB2YWx1ZT0iMTI3Ii8+PFNFVFRJTkcgaWQ9InRfc3BlZWRGcm9tIiB2YWx1ZT0iMC4wIi8+PFNFVFRJTkcgaWQ9InRfc3BlZWRUbyIgdmFsdWU9IjAuNSIvPjxTRVRUSU5HIGlkPSJ0X3Byb2dyYW1DaGFuZ2UiIHZhbHVlPSIwIi8+PFNFVFRJTkcgaWQ9InRfdGVtcG9Gcm9tIiB2YWx1ZT0iMC4wIi8+PFNFVFRJTkcgaWQ9InRfdGVtcG9UbyIgdmFsdWU9IjAuMCIvPjxTRVRUSU5HIGlkPSJycl90aW1lb3V0IiB2YWx1ZT0iLTEuMCIvPjxTRVRUSU5HIGlkPSJycl9uZWlnaGJvdXJNaW4iIHZhbHVlPSIyMSIvPjxTRVRUSU5HIGlkPSJycl9uZWlnaGJvdXJNYXgiIHZhbHVlPSI4OCIvPjxTRVRUSU5HIGlkPSJycl91c2VOZWlnaGJvdXIiIHZhbHVlPSIwIi8+PFNFVFRJTkcgaWQ9InJyX2NvdW50IiB2YWx1ZT0iLTEiLz48U0VUVElORyBpZD0icnJfaW5jIiB2YWx1ZT0iMSIvPjxTRVRUSU5HIGlkPSJycl9sYXllcnMiIHZhbHVlPSIxIi8+PFNFVFRJTkcgaWQ9InJyX2dhaW4iIHZhbHVlPSIxLjAiLz48U0VUVElORyBpZD0icnJfc3RhcnQiIHZhbHVlPSIwIi8+PFNFVFRJTkcgaWQ9InJyX3N5bmMiIHZhbHVlPSIwIi8+PFNFVFRJTkcgaWQ9InJyX3BsYXkiIHZhbHVlPSIxIi8+PFNFVFRJTkcgaWQ9InJyX2tleXN3aXRjaEZyb20iIHZhbHVlPSItMSIvPjxTRVRUSU5HIGlkPSJycl9rZXlzd2l0Y2hUbyIgdmFsdWU9Ii0xIi8+PFNFVFRJTkcgaWQ9InJyX2tleXN3aXRjaFRvIiB2YWx1ZT0iLTEiLz48U0VUVElORyBpZD0icnJfbW9kZSIgdmFsdWU9IjAiLz48U0VUVElORyBpZD0icnJfbWFwIiB2YWx1ZT0iMCAxIDIgMyA0IDUgNiA3IDggOSAxMCAxMSAxMiAxMyAxNCAxNSAxNiAxNyAxOCAxOSAyMCAyMSAyMiAyMyAyNCAyNSAyNiAyNyAyOCAyOSAzMCAzMSAzMiAzMyAzNCAzNSAzNiAzNyAzOCAzOSA0MCA0MSA0MiA0MyA0NCA0NSA0NiA0NyA0OCA0OSA1MCA1MSA1MiA1MyA1NCA1NSA1NiA1NyA1OCA1OSA2MCA2MSA2MiA2MyA2NCA2NSA2NiA2NyA2OCA2OSA3MCA3MSA3MiA3MyA3NCA3NSA3NiA3NyA3OCA3OSA4MCA4MSA4MiA4MyA4NCA4NSA4NiA4NyA4OCA4OSA5MCA5MSA5MiA5MyA5NCA5NSA5NiA5NyA5OCA5OSAxMDAgMTAxIDEwMiAxMDMgMTA0IDEwNSAxMDYgMTA3IDEwOCAxMDkgMTEwIDExMSAxMTIgMTEzIDExNCAxMTUgMTE2IDExNyAxMTggMTE5IDEyMCAxMjEgMTIyIDEyMyAxMjQgMTI1IDEyNiAxMjciLz48UlJQQVRURVJOUz48UlJQQVRURVJOIHJyX3BhdHRlcm5LZXk9Ii0xIiBycl9wYXR0ZXJuU3RhcnQ9IjAiIHJyX3BhdHRlcm49IiIgcnJfcGF0dGVyblZhbGlkYXRpb249IiIvPjwvUlJQQVRURVJOUz48U0VUVElORyBpZD0icl9taWRpQ2hhbm5lbCIgdmFsdWU9IjAiLz48U0VUVElORyBpZD0icl90cmFuc3Bvc2UiIHZhbHVlPSIwIi8+PFNFVFRJTkcgaWQ9InJfbGF5ZXJUcmFuc3Bvc2UiIHZhbHVlPSIwIi8+PFNFVFRJTkcgaWQ9ImlfZXhwcmVzc2lvbiIgdmFsdWU9IjEuMCIvPjxTRVRUSU5HIGlkPSJpX2R5bmFtaWNzIiB2YWx1ZT0iMC4wIi8+PFNFVFRJTkcgaWQ9ImlfcmV2ZXJiIiB2YWx1ZT0iMC40OTAwMDAwMDk1MzY3NDMyIi8+PFNFVFRJTkcgaWQ9ImlfcmVsZWFzZSIgdmFsdWU9IjAuNSIvPjxTRVRUSU5HIGlkPSJpX3RpZ2h0IiB2YWx1ZT0iMC41MDM5MzcwMDU5OTY3MDQxIi8+PFNFVFRJTkcgaWQ9ImlfdmlicmF0byIgdmFsdWU9IjEuMCIvPjxTRVRUSU5HIGlkPSJpX3ZhcmlhdGlvbiIgdmFsdWU9IjAuMCIvPjxTRVRUSU5HIGlkPSJzX3BhbiIgdmFsdWU9IjAuNSIvPjxTRVRUSU5HIGlkPSJzX3dpZHRoIiB2YWx1ZT0iMC41Ii8+PFNFVFRJTkcgaWQ9InNfZmxpcCIgdmFsdWU9IjAuMCIvPjxNSVg+PFNFVFRJTkcgaWQ9Im1fbWFpbiIgdmFsdWU9IjEuMCIgbWljSWQ9IjEiLz48U0VUVElORyBpZD0iZV9tYWluIiB2YWx1ZT0iMSIgbWljSWQ9IjEiLz48U0VUVElORyBpZD0iYl9tYWluIiB2YWx1ZT0iMCIgbWljSWQ9IjEiLz48U0VUVElORyBpZD0ibV9hbHQxIiB2YWx1ZT0iMC4wIiBtaWNJZD0iMiIvPjxTRVRUSU5HIGlkPSJlX2FsdDEiIHZhbHVlPSIwIiBtaWNJZD0iMiIvPjxTRVRUSU5HIGlkPSJiX2FsdDEiIHZhbHVlPSIwIiBtaWNJZD0iMiIvPjxTRVRUSU5HIGlkPSJtX2FsdDIiIHZhbHVlPSIwLjAiIG1pY0lkPSIzIi8+PFNFVFRJTkcgaWQ9ImVfYWx0MiIgdmFsdWU9IjAiIG1pY0lkPSIzIi8+PFNFVFRJTkcgaWQ9ImJfYWx0MiIgdmFsdWU9IjAiIG1pY0lkPSIzIi8+PFNFVFRJTkcgaWQ9Im1fYWx0MyIgdmFsdWU9IjAuMCIgbWljSWQ9IjQiLz48U0VUVElORyBpZD0iZV9hbHQzIiB2YWx1ZT0iMCIgbWljSWQ9IjQiLz48U0VUVElORyBpZD0iYl9hbHQzIiB2YWx1ZT0iMCIgbWljSWQ9IjQiLz48L01JWD48L0FSVElDPjwvQVJUSUNTPjxQQVJBTUVURVJTPjxQQVJBTSBpZD0iZ19nYWluIiB2YWx1ZT0iMS4wIiBjYz0iNyIgY2NGcm9tPSIwLjAiIGNjVG89IjEuMCIgY2NTa2V3PSIxLjAiIGNjRmxpcD0iMCIvPjxQQVJBTSBpZD0iZ19wYW4iIHZhbHVlPSIwLjUiIGNjPSIxMCIgY2NGcm9tPSIwLjAiIGNjVG89IjEuMCIgY2NTa2V3PSIxLjAiIGNjRmxpcD0iMCIvPjxQQVJBTSBpZD0iZ190dW5lIiB2YWx1ZT0iMC4wIiBjYz0iLTEiIGNjRnJvbT0iMC4wIiBjY1RvPSIxLjAiIGNjU2tldz0iMS4wIiBjY0ZsaXA9IjAiLz48UEFSQU0gaWQ9ImlfcmV2ZXJiIiB2YWx1ZT0iMC40OTAwMDAwMDk1MzY3NDMyIiBjYz0iMTkiIGNjRnJvbT0iMC4wIiBjY1RvPSIxLjAiIGNjU2tldz0iMS4wIiBjY0ZsaXA9IjAiLz48UEFSQU0gaWQ9ImlfdGlnaHQiIHZhbHVlPSIwLjUwMzkzNzAwNTk5NjcwNDEiIGNjPSIxOCIgY2NGcm9tPSIwLjAiIGNjVG89IjEuMCIgY2NTa2V3PSIxLjAiIGNjRmxpcD0iMCIvPjxQQVJBTSBpZD0iaV9zcGVlZCIgdmFsdWU9IjAuMCIgY2M9Ii0xIiBjY0Zyb209IjAuMCIgY2NUbz0iMS4wIiBjY1NrZXc9IjEuMCIgY2NGbGlwPSIwIi8+PFBBUkFNIGlkPSJpX3JlbGVhc2UiIHZhbHVlPSIwLjUiIGNjPSIxNyIgY2NGcm9tPSIwLjAiIGNjVG89IjEuMCIgY2NTa2V3PSIxLjAiIGNjRmxpcD0iMCIvPjxQQVJBTSBpZD0iaV9leHByZXNzaW9uIiB2YWx1ZT0iMS4wIiBjYz0iMTEiIGNjRnJvbT0iMC4wIiBjY1RvPSIxLjAiIGNjU2tldz0iMS4wIiBjY0ZsaXA9IjAiLz48UEFSQU0gaWQ9ImlfZHluYW1pY3MiIHZhbHVlPSIwLjAiIGNjPSIxIiBjY0Zyb209IjAuMCIgY2NUbz0iMS4wIiBjY1NrZXc9IjEuMCIgY2NGbGlwPSIwIi8+PFBBUkFNIGlkPSJpX3ZhcmlhdGlvbiIgdmFsdWU9IjAuMCIgY2M9IjIwIiBjY0Zyb209IjAuMCIgY2NUbz0iMS4wIiBjY1NrZXc9IjEuMCIgY2NGbGlwPSIwIi8+PFBBUkFNIGlkPSJpX3ZpYnJhdG8iIHZhbHVlPSIxLjAiIGNjPSIyMSIgY2NGcm9tPSIwLjAiIGNjVG89IjEuMCIgY2NTa2V3PSIxLjAiIGNjRmxpcD0iMCIvPjxQQVJBTSBpZD0iaV9lbnZhdHQiIHZhbHVlPSIwLjA5OTk5OTk4NjU4ODk1NDkzIiBjYz0iLTEiIGNjRnJvbT0iMC4wIiBjY1RvPSIxLjAiIGNjU2tldz0iMS4wIiBjY0ZsaXA9IjAiLz48UEFSQU0gaWQ9ImlfZW52ZGVjIiB2YWx1ZT0iMC4wOTk5OTk5OTQwMzk1MzU1MiIgY2M9Ii0xIiBjY0Zyb209IjAuMCIgY2NUbz0iMS4wIiBjY1NrZXc9IjEuMCIgY2NGbGlwPSIwIi8+PFBBUkFNIGlkPSJpX2VudnN1cyIgdmFsdWU9IjEuMCIgY2M9Ii0xIiBjY0Zyb209IjAuMCIgY2NUbz0iMS4wIiBjY1NrZXc9IjEuMCIgY2NGbGlwPSIwIi8+PFBBUkFNIGlkPSJpX2VudnJlbCIgdmFsdWU9IjIuMCIgY2M9Ii0xIiBjY0Zyb209IjAuMCIgY2NUbz0iMS4wIiBjY1NrZXc9IjEuMCIgY2NGbGlwPSIwIi8+PFBBUkFNIGlkPSJpX21peHNpbXBsZSIgdmFsdWU9IjAuNSIgY2M9Ii0xIiBjY0Zyb209IjAuMCIgY2NUbz0iMS4wIiBjY1NrZXc9IjEuMCIgY2NGbGlwPSIwIi8+PFBBUkFNIGlkPSJzX2ZsaXAiIHZhbHVlPSIwLjAiIGNjPSItMSIgY2NGcm9tPSIwLjAiIGNjVG89IjEuMCIgY2NTa2V3PSIxLjAiIGNjRmxpcD0iMCIvPjxQQVJBTSBpZD0ic193aWR0aCIgdmFsdWU9IjAuNSIgY2M9Ii0xIiBjY0Zyb209IjAuMCIgY2NUbz0iMS4wIiBjY1NrZXc9IjEuMCIgY2NGbGlwPSIwIi8+PFBBUkFNIGlkPSJzX3BhbiIgdmFsdWU9IjAuNSIgY2M9Ii0xIiBjY0Zyb209IjAuMCIgY2NUbz0iMS4wIiBjY1NrZXc9IjEuMCIgY2NGbGlwPSIwIi8+PFBBUkFNIGlkPSJpX2RlbGF5IiB2YWx1ZT0iMC4wIiBjYz0iLTEiIGNjRnJvbT0iMC4wIiBjY1RvPSIxLjAiIGNjU2tldz0iMS4wIiBjY0ZsaXA9IjAiLz48UEFSQU0gaWQ9ImlfYW1vdW50IiB2YWx1ZT0iMC4wIiBjYz0iLTEiIGNjRnJvbT0iMC4wIiBjY1RvPSIxLjAiIGNjU2tldz0iMS4wIiBjY0ZsaXA9IjAiLz48UEFSQU0gaWQ9ImlfZGlzdG9ydCIgdmFsdWU9IjAuMCIgY2M9Ii0xIiBjY0Zyb209IjAuMCIgY2NUbz0iMS4wIiBjY1NrZXc9IjEuMCIgY2NGbGlwPSIwIi8+PFBBUkFNIGlkPSJpX2x1c2hWZXJiIiB2YWx1ZT0iMC4wIiBjYz0iLTEiIGNjRnJvbT0iMC4wIiBjY1RvPSIxLjAiIGNjU2tldz0iMS4wIiBjY0ZsaXA9IjAiLz48UEFSQU0gaWQ9Im1fbWFpbiIgdmFsdWU9IjEuMCIgY2M9Ii0xIiBjY0Zyb209IjAuMCIgY2NUbz0iMS4wIiBjY1NrZXc9IjEuMCIgY2NGbGlwPSIwIi8+PFBBUkFNIGlkPSJpX3BlZHZvbCIgdmFsdWU9IjAuNSIgY2M9Ii0xIiBjY0Zyb209IjAuMCIgY2NUbz0iMS4wIiBjY1NrZXc9IjEuMCIgY2NGbGlwPSIwIi8+PFBBUkFNIGlkPSJtX2FsdDEiIHZhbHVlPSIwLjAiIGNjPSItMSIgY2NGcm9tPSIwLjAiIGNjVG89IjEuMCIgY2NTa2V3PSIxLjAiIGNjRmxpcD0iMCIvPjxQQVJBTSBpZD0iaV9wZWREeW4iIHZhbHVlPSIwLjUiIGNjPSItMSIgY2NGcm9tPSIwLjAiIGNjVG89IjEuMCIgY2NTa2V3PSIxLjAiIGNjRmxpcD0iMCIvPjxQQVJBTSBpZD0ibV9hbHQyIiB2YWx1ZT0iMC4wIiBjYz0iLTEiIGNjRnJvbT0iMC4wIiBjY1RvPSIxLjAiIGNjU2tldz0iMS4wIiBjY0ZsaXA9IjAiLz48UEFSQU0gaWQ9ImlfbGVuZ3RoIiB2YWx1ZT0iMC4wIiBjYz0iLTEiIGNjRnJvbT0iMC4wIiBjY1RvPSIxLjAiIGNjU2tldz0iMS4wIiBjY0ZsaXA9IjAiLz48UEFSQU0gaWQ9Im1fYWx0MyIgdmFsdWU9IjAuMCIgY2M9Ii0xIiBjY0Zyb209IjAuMCIgY2NUbz0iMS4wIiBjY1NrZXc9IjEuMCIgY2NGbGlwPSIwIi8+PFBBUkFNIGlkPSJpX3RpbWVNYWNoaW5lIiB2YWx1ZT0iMC4wIiBjYz0iLTEiIGNjRnJvbT0iMC4wIiBjY1RvPSIxLjAiIGNjU2tldz0iMS4wIiBjY0ZsaXA9IjAiLz48UEFSQU0gaWQ9Imlfc3RyZXRjaCIgdmFsdWU9IjAuMCIgY2M9Ii0xIiBjY0Zyb209IjAuMCIgY2NUbz0iMS4wIiBjY1NrZXc9IjEuMCIgY2NGbGlwPSIwIi8+PFBBUkFNIGlkPSJpX3NvZnRQZWRhbCIgdmFsdWU9IjAuMCIgY2M9Ii0xIiBjY0Zyb209IjAuMCIgY2NUbz0iMS4wIiBjY1NrZXc9IjEuMCIgY2NGbGlwPSIwIi8+PFBBUkFNIGlkPSJpX3Jlc3BvbnNlIiB2YWx1ZT0iMC4wIiBjYz0iLTEiIGNjRnJvbT0iMC4wIiBjY1RvPSIxLjAiIGNjU2tldz0iMS4wIiBjY0ZsaXA9IjAiLz48UEFSQU0gaWQ9ImlfbWFsbGV0IiB2YWx1ZT0iMC4wIiBjYz0iLTEiIGNjRnJvbT0iMC4wIiBjY1RvPSIxLjAiIGNjU2tldz0iMS4wIiBjY0ZsaXA9IjAiLz48UEFSQU0gaWQ9Imlfc3RvcGVNdXRlIiB2YWx1ZT0iMC4wIiBjYz0iLTEiIGNjRnJvbT0iMC4wIiBjY1RvPSIxLjAiIGNjU2tldz0iMS4wIiBjY0ZsaXA9IjAiLz48UEFSQU0gaWQ9ImlfZGlyZWN0aW9uIiB2YWx1ZT0iMC4wIiBjYz0iLTEiIGNjRnJvbT0iMC4wIiBjY1RvPSIxLjAiIGNjU2tldz0iMS4wIiBjY0ZsaXA9IjAiLz48UEFSQU0gaWQ9ImlfbHBGaWx0ZXIiIHZhbHVlPSIwLjAiIGNjPSItMSIgY2NGcm9tPSIwLjAiIGNjVG89IjEuMCIgY2NTa2V3PSIxLjAiIGNjRmxpcD0iMCIvPjxQQVJBTSBpZD0iaV9wb3J0YW1lbnRvIiB2YWx1ZT0iMC4wIiBjYz0iLTEiIGNjRnJvbT0iMC4wIiBjY1RvPSIxLjAiIGNjU2tldz0iMS4wIiBjY0ZsaXA9IjAiLz48UEFSQU0gaWQ9ImlfbWV0YVsxOF0iIHZhbHVlPSIwLjAiIGNjPSItMSIgY2NGcm9tPSIwLjAiIGNjVG89IjEuMCIgY2NTa2V3PSIxLjAiIGNjRmxpcD0iMCIvPjxQQVJBTSBpZD0iaV9tZXRhWzE5XSIgdmFsdWU9IjAuMCIgY2M9Ii0xIiBjY0Zyb209IjAuMCIgY2NUbz0iMS4wIiBjY1NrZXc9IjEuMCIgY2NGbGlwPSIwIi8+PFBBUkFNIGlkPSJpX21ldGFbMjBdIiB2YWx1ZT0iMC4wIiBjYz0iLTEiIGNjRnJvbT0iMC4wIiBjY1RvPSIxLjAiIGNjU2tldz0iMS4wIiBjY0ZsaXA9IjAiLz48UEFSQU0gaWQ9ImlfbWV0YVsyMV0iIHZhbHVlPSIwLjAiIGNjPSItMSIgY2NGcm9tPSIwLjAiIGNjVG89IjEuMCIgY2NTa2V3PSIxLjAiIGNjRmxpcD0iMCIvPjxQQVJBTSBpZD0iaV9tZXRhWzIyXSIgdmFsdWU9IjAuMCIgY2M9Ii0xIiBjY0Zyb209IjAuMCIgY2NUbz0iMS4wIiBjY1NrZXc9IjEuMCIgY2NGbGlwPSIwIi8+PFBBUkFNIGlkPSJpX21ldGFbMjNdIiB2YWx1ZT0iMC4wIiBjYz0iLTEiIGNjRnJvbT0iMC4wIiBjY1RvPSIxLjAiIGNjU2tldz0iMS4wIiBjY0ZsaXA9IjAiLz48UEFSQU0gaWQ9ImlfbWV0YVsyNF0iIHZhbHVlPSIwLjAiIGNjPSItMSIgY2NGcm9tPSIwLjAiIGNjVG89IjEuMCIgY2NTa2V3PSIxLjAiIGNjRmxpcD0iMCIvPjxQQVJBTSBpZD0iaV9tZXRhWzI1XSIgdmFsdWU9IjAuMCIgY2M9Ii0xIiBjY0Zyb209IjAuMCIgY2NUbz0iMS4wIiBjY1NrZXc9IjEuMCIgY2NGbGlwPSIwIi8+PFBBUkFNIGlkPSJpX21ldGFbMjZdIiB2YWx1ZT0iMC4wIiBjYz0iLTEiIGNjRnJvbT0iMC4wIiBjY1RvPSIxLjAiIGNjU2tldz0iMS4wIiBjY0ZsaXA9IjAiLz48UEFSQU0gaWQ9Im1ldGFfYVs5XSIgdmFsdWU9IjAuMCIgY2M9Ii0xIiBjY0Zyb209IjAuMCIgY2NUbz0iMS4wIiBjY1NrZXc9IjEuMCIgY2NGbGlwPSIwIi8+PFBBUkFNIGlkPSJpX3NjYWxlIiB2YWx1ZT0iMC4wIiBjYz0iLTEiIGNjRnJvbT0iMC4wIiBjY1RvPSIxLjAiIGNjU2tldz0iMS4wIiBjY0ZsaXA9IjAiLz48UEFSQU0gaWQ9ImlfaW50ZW5zaXR5IiB2YWx1ZT0iMC4wIiBjYz0iLTEiIGNjRnJvbT0iMC4wIiBjY1RvPSIxLjAiIGNjU2tldz0iMS4wIiBjY0ZsaXA9IjAiLz48UEFSQU0gaWQ9Im5vaXNlZngiIHZhbHVlPSIwLjAiIGNjPSItMSIgY2NGcm9tPSIwLjAiIGNjVG89IjEuMCIgY2NTa2V3PSIxLjAiIGNjRmxpcD0iMCIvPjxQQVJBTSBpZD0iaV9tZXRhWzI3XSIgdmFsdWU9IjAuMCIgY2M9Ii0xIiBjY0Zyb209IjAuMCIgY2NUbz0iMS4wIiBjY1NrZXc9IjEuMCIgY2NGbGlwPSIwIi8+PC9QQVJBTUVURVJTPjwvTGFicz4AAAAAAAAAAABKVUNFUHJpdmF0ZURhdGEAAQFCeXBhc3MAAQEDAB0AAAAAAAAASlVDRVByaXZhdGVEYXRh",
+                    "controllerState": ""
+                }
+            },
+            "instrumentId": "celesta",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.09000000357627869
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 4
+            },
+            "partId": "3",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "categories": "Instrument",
+                        "playbackSetupData": "last.last.last"
+                    },
+                    "hasNativeEditorSupport": true,
+                    "id": "sforzando",
+                    "type": "vst_plugin",
+                    "vendor": "Plogue Art et Technologie, Inc"
+                },
+                "unitConfiguration": {
+                    "componentState": "AAAAAMgBAABDRUdQwwQAAHicjZRLb9swDIDvA/YfBN0bW6mXNoO9Imu7zYdgA5xddiloWcmE6ZFZstvt14+WE8eHDrZPIvnxIVpkeveiFWlF7aQ1GWWLmJK7D2/fpJtaQgGtGNnWN7eUHGtbNdznD6iIWUKRJfilhfBemoMjvxtQ0v9BMyXO1wI0qjN6vaREw0sRNBulLN9+zOgyTjDmNn/IvzZ+aysR3KDxVoPHrIWyPqPxWKVEK1RGpcHgjRbGU6JkK3pnJB3vU3NQgApGrojoalo4rk7qe/QSdUZXiB+ULUHtGhOqREU03AhzE1kFpQGN0e/fR99s7aFUIio+/Yh2z5Z8AVO5yD/bp5/daeH2fykpwfzK0fMKCxn6h2E4MqarvjMcrcIurRJK/CX7sXyqwRzECfEouGDQo6PlHv/M+La68UE+1R7q34I05/pbUE3f2+hVhA1I/D9kOY1cTyPJNPJuGllNIzfTyO00sp5GWDyDmdFfNqPBbEaH2YwWs1d7nEbdkz8Lj/u94H48BKe31s/CRpdSGC4ujz2sg/G6SNZhXfBhNIdEn7/n56DAPU5vfhn0ID8OshMKyxDVDsp+JrogaXReTyj8A6quRPo=",
+                    "controllerState": ""
+                }
+            },
+            "instrumentId": "drumset",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.009999999776482582
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 8
+            },
+            "partId": "2",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "playbackSetupData": "last.last.last",
+                        "soundFontName": "MS Basic"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "metronome",
+            "out": {
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "999",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "playbackSetupData": "last.last.last",
+                        "soundFontName": "MS Basic"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "hand-clap",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": -2
+            },
+            "partId": "4",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        }
+    ]
+}

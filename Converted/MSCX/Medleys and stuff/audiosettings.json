@@ -1,0 +1,369 @@
+{
+    "activeSoundProfile": "MuseSounds",
+    "aux": [
+        {
+            "out": {
+                "balance": 0,
+                "fxChain": {
+                    "0": {
+                        "active": true,
+                        "chainOrder": 0,
+                        "resourceMeta": {
+                            "attributes": {
+                            },
+                            "hasNativeEditorSupport": true,
+                            "id": "Muse Reverb",
+                            "type": "muse_plugin",
+                            "vendor": "Muse"
+                        },
+                        "unitConfiguration": {
+                        }
+                    }
+                },
+                "volumeDb": 0
+            },
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "out": {
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        }
+    ],
+    "master": {
+        "balance": 0,
+        "fxChain": {
+        },
+        "volumeDb": 0
+    },
+    "tracks": [
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "museCategory": "Muse Strings",
+                        "museName": "Violoncellos",
+                        "musePack": "Muse Strings",
+                        "museUID": "94",
+                        "museVendorName": "Muse",
+                        "playbackSetupData": "strings.violoncello.orchestral:section"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "94",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "MuseSounds"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "violoncellos",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "5",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "museCategory": "Muse Keys",
+                        "museName": "Soft Piano",
+                        "musePack": "Muse Keys",
+                        "museUID": "169",
+                        "museVendorName": "Muse",
+                        "playbackSetupData": "keyboards.piano.soft"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "169",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "MuseSounds"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "piano",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.15000000596046448
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "1",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "museCategory": "Muse Strings",
+                        "museName": "Violins 1",
+                        "musePack": "Muse Strings",
+                        "museUID": "91",
+                        "museVendorName": "Muse",
+                        "playbackSetupData": "strings.violin.orchestral:primary:section"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "91",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "MuseSounds"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "violins",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "2",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "playbackSetupData": "last.last.last",
+                        "soundFontName": "MS Basic"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "metronome",
+            "out": {
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "999",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "museCategory": "Muse Harp",
+                        "museName": "Harp",
+                        "musePack": "Muse Harp",
+                        "museUID": "165",
+                        "museVendorName": "Muse",
+                        "playbackSetupData": "strings.harp.plucked"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "165",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "MuseSounds"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "harp",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "3",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "museCategory": "Muse Strings",
+                        "museName": "Contrabasses",
+                        "musePack": "Muse Strings",
+                        "museUID": "95",
+                        "museVendorName": "Muse",
+                        "playbackSetupData": "strings.contrabass.orchestral:section"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "95",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "MuseSounds"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "contrabasses",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "6",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "playbackSetupData": "last.last.last",
+                        "soundFontName": "MS Basic"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "voice",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 2
+            },
+            "partId": "4",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "museCategory": "Muse Strings",
+                        "museName": "Violin 1 (Solo)",
+                        "musePack": "Muse Strings",
+                        "museUID": "103",
+                        "museVendorName": "Muse",
+                        "playbackSetupData": "strings.violin.orchestral:primary"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "103",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "MuseSounds"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "violin",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.4000000059604645
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": -4
+            },
+            "partId": "7",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        }
+    ]
+}

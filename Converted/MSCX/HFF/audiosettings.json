@@ -1,6 +1,44 @@
 {
-    "activeSoundProfile": "Muse Sounds",
+    "activeSoundProfile": "MuseSounds",
     "aux": [
+        {
+            "out": {
+                "balance": 0,
+                "fxChain": {
+                    "0": {
+                        "active": true,
+                        "chainOrder": 0,
+                        "resourceMeta": {
+                            "attributes": {
+                            },
+                            "hasNativeEditorSupport": true,
+                            "id": "Muse Reverb",
+                            "type": "muse_plugin",
+                            "vendor": "Muse"
+                        },
+                        "unitConfiguration": {
+                        }
+                    }
+                },
+                "volumeDb": 0
+            },
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "out": {
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        }
     ],
     "master": {
         "balance": 0,
@@ -41,6 +79,16 @@
             },
             "instrumentId": "bb-cornet",
             "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
                 "balance": 0,
                 "fxChain": {
                 },
@@ -57,20 +105,32 @@
                 "resourceMeta": {
                     "attributes": {
                         "museCategory": "Muse Brass",
-                        "museName": "Trumpets",
-                        "museUID": "109",
-                        "playbackSetupData": "winds.trumpet.section"
+                        "museName": "Trumpet",
+                        "musePack": "Muse Brass",
+                        "museUID": "110",
+                        "museVendorName": "Muse",
+                        "playbackSetupData": "winds.trumpet"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Brass\\Trumpets\\109",
+                    "id": "110",
                     "type": "muse_sampler_sound_pack",
-                    "vendor": "Muse Brass"
+                    "vendor": "MuseSounds"
                 },
                 "unitConfiguration": {
                 }
             },
             "instrumentId": "trumpet",
             "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.4000000059604645
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
                 "balance": 0,
                 "fxChain": {
                 },
@@ -92,7 +152,7 @@
                         "playbackSetupData": "winds.clarinet.sopranino:in_e_flat"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Woodwinds\\Clarinet in Eb\\126",
+                    "id": "126",
                     "type": "muse_sampler_sound_pack",
                     "vendor": "Muse Woodwinds"
                 },
@@ -101,6 +161,16 @@
             },
             "instrumentId": "clarinet",
             "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
                 "balance": 0,
                 "fxChain": {
                 },
@@ -142,13 +212,55 @@
             "in": {
                 "resourceMeta": {
                     "attributes": {
+                        "museCategory": "Muse Percussion",
+                        "museName": "Piatti",
+                        "musePack": "Muse Percussion",
+                        "museUID": "148",
+                        "museVendorName": "Muse",
+                        "playbackSetupData": "percussions.cymbal.metal"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "148",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "MuseSounds"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "cymbal",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "26",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
                         "museCategory": "Muse Woodwinds",
                         "museName": "Oboe",
                         "museUID": "124",
                         "playbackSetupData": "winds.oboe"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Woodwinds\\Oboe\\124",
+                    "id": "124",
                     "type": "muse_sampler_sound_pack",
                     "vendor": "Muse Woodwinds"
                 },
@@ -157,6 +269,16 @@
             },
             "instrumentId": "oboe",
             "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.5
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
                 "balance": 0,
                 "fxChain": {
                 },
@@ -174,23 +296,35 @@
                     "attributes": {
                         "museCategory": "Muse Strings",
                         "museName": "Violins 2",
+                        "musePack": "Muse Strings",
                         "museUID": "92",
+                        "museVendorName": "Muse",
                         "playbackSetupData": "strings.violin.orchestral:secondary:section"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Strings\\Violins 2\\92",
+                    "id": "92",
                     "type": "muse_sampler_sound_pack",
-                    "vendor": "Muse Strings"
+                    "vendor": "MuseSounds"
                 },
                 "unitConfiguration": {
                 }
             },
             "instrumentId": "violins",
             "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
                 "balance": 0,
                 "fxChain": {
                 },
-                "volumeDb": 4.699999809265137
+                "volumeDb": 0
             },
             "partId": "18",
             "soloMuteState": {
@@ -213,6 +347,16 @@
             },
             "instrumentId": "drumset",
             "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
                 "balance": 0,
                 "fxChain": {
                 },
@@ -234,7 +378,7 @@
                         "playbackSetupData": "winds.horn.french:in_a:section"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Brass\\Horns a6\\96",
+                    "id": "96",
                     "type": "muse_sampler_sound_pack",
                     "vendor": "Muse Brass"
                 },
@@ -243,10 +387,20 @@
             },
             "instrumentId": "horn",
             "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.4000000059604645
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
                 "balance": 0,
                 "fxChain": {
                 },
-                "volumeDb": -2
+                "volumeDb": -4
             },
             "partId": "5",
             "soloMuteState": {
@@ -264,7 +418,7 @@
                         "playbackSetupData": "strings.violin.orchestral:primary:section"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Strings\\Violins 1\\91",
+                    "id": "91",
                     "type": "muse_sampler_sound_pack",
                     "vendor": "Muse Strings"
                 },
@@ -273,10 +427,20 @@
             },
             "instrumentId": "violins",
             "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
                 "balance": 0,
                 "fxChain": {
                 },
-                "volumeDb": 4
+                "volumeDb": 0
             },
             "partId": "19",
             "soloMuteState": {
@@ -294,7 +458,7 @@
                         "playbackSetupData": "winds.flute.primary"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Woodwinds\\Flute 1\\118",
+                    "id": "118",
                     "type": "muse_sampler_sound_pack",
                     "vendor": "Muse Woodwinds"
                 },
@@ -303,6 +467,16 @@
             },
             "instrumentId": "flute",
             "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.4000000059604645
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
                 "balance": 0,
                 "fxChain": {
                 },
@@ -318,25 +492,35 @@
             "in": {
                 "resourceMeta": {
                     "attributes": {
-                        "museCategory": "Muse Keys",
-                        "museName": "Grand Piano",
-                        "museUID": "167",
-                        "playbackSetupData": "keyboards.piano"
+                        "categories": "Instrument|Synth",
+                        "playbackSetupData": "last.last.last"
                     },
-                    "hasNativeEditorSupport": false,
-                    "id": "Muse Keys\\Grand Piano\\167",
-                    "type": "muse_sampler_sound_pack",
-                    "vendor": "Muse Keys"
+                    "hasNativeEditorSupport": true,
+                    "id": "Numa Player",
+                    "type": "vst_plugin",
+                    "vendor": "Studiologic"
                 },
                 "unitConfiguration": {
+                    "componentState": "VkMyIU0fAAA8P3htbCB2ZXJzaW9uPSIxLjAiIGVuY29kaW5nPSJVVEYtOCI/PiA8TUFJTl9TVEFURSBQUkVTRVRfVkVSU0lPTl9JRD0iMS4wIiBQUkVTRVRfQ0hBTkdFRF9JRD0iMSIgU0VMRUNURURfVVVJRF9JRD0iZWE3Yjg2ZTEtNmRmOS00NDViLTgxMDctYzEwNDNmYWY1MGM3Ij48UEFSQU0gaWQ9IkRBV19TT1VSQ0VfMDAwMF9JRCIgdmFsdWU9IjAuMCIvPjxQQVJBTSBpZD0iREFXX1NPVVJDRV8wMDAxX0lEIiB2YWx1ZT0iMC4wIi8+PFBBUkFNIGlkPSJEQVdfU09VUkNFXzAwMDJfSUQiIHZhbHVlPSIwLjAiLz48UEFSQU0gaWQ9IkRBV19TT1VSQ0VfMDAwM19JRCIgdmFsdWU9IjAuMCIvPjxQQVJBTSBpZD0iREFXX1NPVVJDRV8wMDA0X0lEIiB2YWx1ZT0iMC4wIi8+PFBBUkFNIGlkPSJEQVdfU09VUkNFXzAwMDVfSUQiIHZhbHVlPSIwLjAiLz48UEFSQU0gaWQ9IkRBV19TT1VSQ0VfMDAwNl9JRCIgdmFsdWU9IjAuMCIvPjxQQVJBTSBpZD0iREFXX1NPVVJDRV8wMDA3X0lEIiB2YWx1ZT0iMC4wIi8+PFBBUkFNIGlkPSJEQVdfU09VUkNFXzAwMDhfSUQiIHZhbHVlPSIwLjAiLz48UEFSQU0gaWQ9IkRBV19TT1VSQ0VfMDAwOV9JRCIgdmFsdWU9IjAuMCIvPjxQQVJBTSBpZD0iREFXX1NPVVJDRV8wMDEwX0lEIiB2YWx1ZT0iMC4wIi8+PFBBUkFNIGlkPSJEQVdfU09VUkNFXzAwMTFfSUQiIHZhbHVlPSIwLjAiLz48UEFSQU0gaWQ9IkRBV19TT1VSQ0VfMDAxMl9JRCIgdmFsdWU9IjAuMCIvPjxQQVJBTSBpZD0iREFXX1NPVVJDRV8wMDEzX0lEIiB2YWx1ZT0iMC4wIi8+PFBBUkFNIGlkPSJEQVdfU09VUkNFXzAwMTRfSUQiIHZhbHVlPSIwLjAiLz48UEFSQU0gaWQ9IkRBV19TT1VSQ0VfMDAxNV9JRCIgdmFsdWU9IjAuMCIvPjxQQVJBTSBpZD0iREFXX1NPVVJDRV8wMDE2X0lEIiB2YWx1ZT0iMC4wIi8+PFBBUkFNIGlkPSJEQVdfU09VUkNFXzAwMTdfSUQiIHZhbHVlPSIwLjAiLz48UEFSQU0gaWQ9IkRBV19TT1VSQ0VfMDAxOF9JRCIgdmFsdWU9IjAuMCIvPjxQQVJBTSBpZD0iREFXX1NPVVJDRV8wMDE5X0lEIiB2YWx1ZT0iMC4wIi8+PFBBUkFNIGlkPSJEQVdfU09VUkNFXzAwMjBfSUQiIHZhbHVlPSIwLjAiLz48UEFSQU0gaWQ9IkRBV19TT1VSQ0VfMDAyMV9JRCIgdmFsdWU9IjAuMCIvPjxQQVJBTSBpZD0iREFXX1NPVVJDRV8wMDIyX0lEIiB2YWx1ZT0iMC4wIi8+PFBBUkFNIGlkPSJEQVdfU09VUkNFXzAwMjNfSUQiIHZhbHVlPSIwLjAiLz48UEFSQU0gaWQ9IkRBV19TT1VSQ0VfMDAyNF9JRCIgdmFsdWU9IjAuMCIvPjxQQVJBTSBpZD0iREFXX1NPVVJDRV8wMDI1X0lEIiB2YWx1ZT0iMC4wIi8+PFBBUkFNIGlkPSJEQVdfU09VUkNFXzAwMjZfSUQiIHZhbHVlPSIwLjAiLz48UEFSQU0gaWQ9IkRBV19TT1VSQ0VfMDAyN19JRCIgdmFsdWU9IjAuMCIvPjxQQVJBTSBpZD0iREFXX1NPVVJDRV8wMDI4X0lEIiB2YWx1ZT0iMC4wIi8+PFBBUkFNIGlkPSJEQVdfU09VUkNFXzAwMjlfSUQiIHZhbHVlPSIwLjAiLz48UEFSQU0gaWQ9IkRBV19TT1VSQ0VfMDAzMF9JRCIgdmFsdWU9IjAuMCIvPjxQQVJBTSBpZD0iREFXX1NPVVJDRV8wMDMxX0lEIiB2YWx1ZT0iMC4wIi8+PFBBUkFNIGlkPSJEQVdfU09VUkNFXzAwMzJfSUQiIHZhbHVlPSIwLjAiLz48UEFSQU0gaWQ9IkRBV19TT1VSQ0VfMDAzM19JRCIgdmFsdWU9IjAuMCIvPjxQQVJBTSBpZD0iREFXX1NPVVJDRV8wMDM0X0lEIiB2YWx1ZT0iMC4wIi8+PFBBUkFNIGlkPSJEQVdfU09VUkNFXzAwMzVfSUQiIHZhbHVlPSIwLjAiLz48UEFSQU0gaWQ9IkRBV19TT1VSQ0VfMDAzNl9JRCIgdmFsdWU9IjAuMCIvPjxQQVJBTSBpZD0iREFXX1NPVVJDRV8wMDM3X0lEIiB2YWx1ZT0iMC4wIi8+PFBBUkFNIGlkPSJEQVdfU09VUkNFXzAwMzhfSUQiIHZhbHVlPSIwLjAiLz48UEFSQU0gaWQ9IkRBV19TT1VSQ0VfMDAzOV9JRCIgdmFsdWU9IjAuMCIvPjxQQVJBTSBpZD0iREFXX1NPVVJDRV8wMDQwX0lEIiB2YWx1ZT0iMC4wIi8+PFBBUkFNIGlkPSJEQVdfU09VUkNFXzAwNDFfSUQiIHZhbHVlPSIwLjAiLz48UEFSQU0gaWQ9IkRBV19TT1VSQ0VfMDA0Ml9JRCIgdmFsdWU9IjAuMCIvPjxQQVJBTSBpZD0iREFXX1NPVVJDRV8wMDQzX0lEIiB2YWx1ZT0iMC4wIi8+PFBBUkFNIGlkPSJEQVdfU09VUkNFXzAwNDRfSUQiIHZhbHVlPSIwLjAiLz48UEFSQU0gaWQ9IkRBV19TT1VSQ0VfMDA0NV9JRCIgdmFsdWU9IjAuMCIvPjxQQVJBTSBpZD0iREFXX1NPVVJDRV8wMDQ2X0lEIiB2YWx1ZT0iMC4wIi8+PFBBUkFNIGlkPSJEQVdfU09VUkNFXzAwNDdfSUQiIHZhbHVlPSIwLjAiLz48UEFSQU0gaWQ9IkRBV19TT1VSQ0VfMDA0OF9JRCIgdmFsdWU9IjAuMCIvPjxQQVJBTSBpZD0iREFXX1NPVVJDRV8wMDQ5X0lEIiB2YWx1ZT0iMC4wIi8+PFBBUkFNIGlkPSJEQVdfU09VUkNFXzAwNTBfSUQiIHZhbHVlPSIwLjAiLz48UEFSQU0gaWQ9IkRBV19TT1VSQ0VfMDA1MV9JRCIgdmFsdWU9IjAuMCIvPjxQQVJBTSBpZD0iREFXX1NPVVJDRV8wMDUyX0lEIiB2YWx1ZT0iMC4wIi8+PFBBUkFNIGlkPSJEQVdfU09VUkNFXzAwNTNfSUQiIHZhbHVlPSIwLjAiLz48UEFSQU0gaWQ9IkRBV19TT1VSQ0VfMDA1NF9JRCIgdmFsdWU9IjAuMCIvPjxQQVJBTSBpZD0iREFXX1NPVVJDRV8wMDU1X0lEIiB2YWx1ZT0iMC4wIi8+PFBBUkFNIGlkPSJEQVdfU09VUkNFXzAwNTZfSUQiIHZhbHVlPSIwLjAiLz48UEFSQU0gaWQ9IkRBV19TT1VSQ0VfMDA1N19JRCIgdmFsdWU9IjAuMCIvPjxQQVJBTSBpZD0iREFXX1NPVVJDRV8wMDU4X0lEIiB2YWx1ZT0iMC4wIi8+PFBBUkFNIGlkPSJEQVdfU09VUkNFXzAwNTlfSUQiIHZhbHVlPSIwLjAiLz48UEFSQU0gaWQ9IkRBV19TT1VSQ0VfMDA2MF9JRCIgdmFsdWU9IjAuMCIvPjxQQVJBTSBpZD0iREFXX1NPVVJDRV8wMDYxX0lEIiB2YWx1ZT0iMC4wIi8+PFBBUkFNIGlkPSJEQVdfU09VUkNFXzAwNjJfSUQiIHZhbHVlPSIwLjAiLz48UEFSQU0gaWQ9IkRBV19TT1VSQ0VfMDA2M19JRCIgdmFsdWU9IjAuMCIvPjxNQVNURVJfVFJFRT48UEFSQU0gaWQ9Ik1BU1RFUl9DT01QX0VOQUJMRV9JRCIgdmFsdWU9IjAuMCIvPjxQQVJBTSBpZD0iTUFTVEVSX0NPTVBfR0FJTl9JRCIgdmFsdWU9IjAuMCIvPjxQQVJBTSBpZD0iTUFTVEVSX0NPTVBfUkFUSU9fSUQiIHZhbHVlPSIxLjAiLz48UEFSQU0gaWQ9Ik1BU1RFUl9DT01QX1RIUkVTSE9MRF9JRCIgdmFsdWU9Ii0xMC4wIi8+PFBBUkFNIGlkPSJNQVNURVJfREVMQVlfREVMX0lEIiB2YWx1ZT0iMTIwLjAiLz48UEFSQU0gaWQ9Ik1BU1RFUl9ERUxBWV9FTkFCTEVfSUQiIHZhbHVlPSIwLjAiLz48UEFSQU0gaWQ9Ik1BU1RFUl9ERUxBWV9GREJLX0lEIiB2YWx1ZT0iMC4yNSIvPjxQQVJBTSBpZD0iTUFTVEVSX0RFTEFZX0dBSU5fSUQiIHZhbHVlPSItNi4wIi8+PFBBUkFNIGlkPSJNQVNURVJfREVMQVlfSElfREFNUF9JRCIgdmFsdWU9IjAuNjAwMDAwMDIzODQxODU3OSIvPjxQQVJBTSBpZD0iTUFTVEVSX0VRX0VOQUJMRV9JRCIgdmFsdWU9IjAuMCIvPjxQQVJBTSBpZD0iTUFTVEVSX0VRX0hJX0lEIiB2YWx1ZT0iMC4wIi8+PFBBUkFNIGlkPSJNQVNURVJfRVFfTE9XX0lEIiB2YWx1ZT0iMC4wIi8+PFBBUkFNIGlkPSJNQVNURVJfRVFfTUlEX0lEIiB2YWx1ZT0iMC4wIi8+PFBBUkFNIGlkPSJNQVNURVJfT1VUUFVUX0dBSU5fSUQiIHZhbHVlPSIwLjAiLz48UEFSQU0gaWQ9Ik1BU1RFUl9SRVZFUkJfREFNUElOR19JRCIgdmFsdWU9IjAuNSIvPjxQQVJBTSBpZD0iTUFTVEVSX1JFVkVSQl9FTkFCTEVfSUQiIHZhbHVlPSIxLjAiLz48UEFSQU0gaWQ9Ik1BU1RFUl9SRVZFUkJfR0FJTl9JRCIgdmFsdWU9Ii02LjAiLz48UEFSQU0gaWQ9Ik1BU1RFUl9SRVZFUkJfUk9PTV9JRCIgdmFsdWU9IjAuNSIvPjxQQVJBTSBpZD0iTUFTVEVSX1JFVkVSQl9XSURUSF9JRCIgdmFsdWU9IjAuNSIvPjxBVVRPTUFUSU9OU19TVEFURV9JRC8+PC9NQVNURVJfVFJFRT48Wk9ORV9TVEFURSBaT05FX1VVSURfSUQ9ImVhN2I4NmUxLTZkZjktNDQ1Yi04MTA3LWMxMDQzZmFmNTBjNyIgWk9ORV9DT0xPVVJfSUQ9ImZmZmNhMTNmIiBaT05FX0xJQlJBUllfSUQ9IjEgLSBBX1BJQU5PLzEgLSBNb2RlbCBEIDE5ODMiIEZYX0VRX1ZJU0lCTEVfSUQ9IjEiPjxQQVJBTSBpZD0iRlhfQ0hPUlVTX0RFUFRIX0lEIiB2YWx1ZT0iNTAuMCIvPjxQQVJBTSBpZD0iRlhfQ0hPUlVTX0VOQUJMRV9JRCIgdmFsdWU9IjAuMCIvPjxQQVJBTSBpZD0iRlhfQ0hPUlVTX0ZSRVFfSUQiIHZhbHVlPSIwLjEyMDAwMDAwNDc2ODM3MTYiLz48UEFSQU0gaWQ9IkZYX0NIT1JVU19XSURUSF9JRCIgdmFsdWU9IjMwLjAiLz48UEFSQU0gaWQ9IkZYX0NPTVBSRVNTT1JfRU5BQkxFX0lEIiB2YWx1ZT0iMC4wIi8+PFBBUkFNIGlkPSJGWF9DT01QUkVTU09SX0dBSU5fSUQiIHZhbHVlPSIwLjAiLz48UEFSQU0gaWQ9IkZYX0NPTVBSRVNTT1JfUkFUSU9fSUQiIHZhbHVlPSI1MC4wIi8+PFBBUkFNIGlkPSJGWF9DT01QUkVTU09SX1RIUkVTSE9MRF9JRCIgdmFsdWU9Ii0yNC4wIi8+PFBBUkFNIGlkPSJGWF9ESVNUT1JUX0FNT1VOVF9JRCIgdmFsdWU9IjE4LjAiLz48UEFSQU0gaWQ9IkZYX0RJU1RPUlRfRU5BQkxFX0lEIiB2YWx1ZT0iMC4wIi8+PFBBUkFNIGlkPSJGWF9ESVNUT1JUX1RPTkVfSUQiIHZhbHVlPSIxLjkwNzM0ODYzMjgxMjVlLTYiLz48UEFSQU0gaWQ9IkZYX0RJU1RPUlRfVFlQRV9JRCIgdmFsdWU9IjEuMCIvPjxQQVJBTSBpZD0iRlhfRVFfRU5BQkxFX0lEIiB2YWx1ZT0iMC4wIi8+PFBBUkFNIGlkPSJGWF9FUV9ISV9JRCIgdmFsdWU9IjAuMCIvPjxQQVJBTSBpZD0iRlhfRVFfTE9XX0lEIiB2YWx1ZT0iMC4wIi8+PFBBUkFNIGlkPSJGWF9FUV9NSURfSUQiIHZhbHVlPSIwLjAiLz48UEFSQU0gaWQ9IkZYX0ZMQU5HRVJfREVQVEhfSUQiIHZhbHVlPSI1MC4wIi8+PFBBUkFNIGlkPSJGWF9GTEFOR0VSX0VOQUJMRV9JRCIgdmFsdWU9IjAuMCIvPjxQQVJBTSBpZD0iRlhfRkxBTkdFUl9GREJLX0lEIiB2YWx1ZT0iMC42NTAwMDAwMzU3NjI3ODY5Ii8+PFBBUkFNIGlkPSJGWF9GTEFOR0VSX0ZSRVFfSUQiIHZhbHVlPSIwLjE1MDAwMDAyMDg2MTYyNTciLz48UEFSQU0gaWQ9IkZYX1BIQVNFUl9ERVBUSF9JRCIgdmFsdWU9Ijc5Ljk5OTk5MjM3MDYwNTQ3Ii8+PFBBUkFNIGlkPSJGWF9QSEFTRVJfRU5BQkxFX0lEIiB2YWx1ZT0iMC4wIi8+PFBBUkFNIGlkPSJGWF9QSEFTRVJfRkRCS19JRCIgdmFsdWU9IjAuNSIvPjxQQVJBTSBpZD0iRlhfUEhBU0VSX0ZSRVFfSUQiIHZhbHVlPSIwLjYzOTk5OTk4NTY5NDg4NTMiLz48UEFSQU0gaWQ9IkZYX1BJTkdQT05HX0RFTEFZX0JQTV9JRCIgdmFsdWU9IjEyMC4wIi8+PFBBUkFNIGlkPSJGWF9QSU5HUE9OR19FTkFCTEVfSUQiIHZhbHVlPSIwLjAiLz48UEFSQU0gaWQ9IkZYX1BJTkdQT05HX0ZFRURCQUNLX0lEIiB2YWx1ZT0iMC41Ii8+PFBBUkFNIGlkPSJGWF9QSU5HUE9OR19NSVhfSUQiIHZhbHVlPSIwLjI1Ii8+PFBBUkFNIGlkPSJGWF9UUkVNT0xPX0RFUFRIX0lEIiB2YWx1ZT0iMC41Ii8+PFBBUkFNIGlkPSJGWF9UUkVNT0xPX0VOQUJMRV9JRCIgdmFsdWU9IjAuMCIvPjxQQVJBTSBpZD0iRlhfVFJFTU9MT19GUkVRX0lEIiB2YWx1ZT0iMi4wIi8+PFBBUkFNIGlkPSJGWF9UUkVNT0xPX1BBTl9JRCIgdmFsdWU9IjAuNSIvPjxQQVJBTSBpZD0iRlhfV0FIV0FIX0RFUFRIX0lEIiB2YWx1ZT0iMC41Ii8+PFBBUkFNIGlkPSJGWF9XQUhXQUhfRU5BQkxFX0lEIiB2YWx1ZT0iMC4wIi8+PFBBUkFNIGlkPSJGWF9XQUhXQUhfTEZPX0ZSRVFfSUQiIHZhbHVlPSIyLjAiLz48UEFSQU0gaWQ9IkZYX1dBSFdBSF9NSVhfSUQiIHZhbHVlPSIwLjUiLz48UEFSQU0gaWQ9IlNFVFRJTkdTX0NIQU5ORUxfSUQiIHZhbHVlPSIwLjAiLz48UEFSQU0gaWQ9IlNFVFRJTkdTX0VYUFJFU1NJT05fRU5BQkxFX0lEIiB2YWx1ZT0iMS4wIi8+PFBBUkFNIGlkPSJTRVRUSU5HU19LRVlfSElfSUQiIHZhbHVlPSIxMDguMCIvPjxQQVJBTSBpZD0iU0VUVElOR1NfS0VZX0xPV19JRCIgdmFsdWU9IjIxLjAiLz48UEFSQU0gaWQ9IlNFVFRJTkdTX0tFWV9UUkFOU1BfU0VNSVRPTkVfSUQiIHZhbHVlPSIwLjAiLz48UEFSQU0gaWQ9IlNFVFRJTkdTX1NVU1RBSU5fRU5BQkxFX0lEIiB2YWx1ZT0iMS4wIi8+PFBBUkFNIGlkPSJTRVRUSU5HU19WRUxPQ19ISV9JRCIgdmFsdWU9IjEyNy4wIi8+PFBBUkFNIGlkPSJTRVRUSU5HU19WRUxPQ19MT1dfSUQiIHZhbHVlPSIwLjAiLz48UEFSQU0gaWQ9IlpPTkVfQV9QSUFOT19EQU1QX0xFVkVMX0lEIiB2YWx1ZT0iMC41Ii8+PFBBUkFNIGlkPSJaT05FX0FfUElBTk9fRFVQTEVYX0lEIiB2YWx1ZT0iMC41Ii8+PFBBUkFNIGlkPSJaT05FX0FfUElBTk9fUkVTT05BTkNFX0lEIiB2YWx1ZT0iMC41Ii8+PFBBUkFNIGlkPSJaT05FX0FfUElBTk9fVE9ORV9MRVZFTF9JRCIgdmFsdWU9IjAuNTU1OTk5OTk0Mjc3OTU0MSIvPjxQQVJBTSBpZD0iWk9ORV9DSE9SVVNfREVQVEhfSUQiIHZhbHVlPSI1MC4wIi8+PFBBUkFNIGlkPSJaT05FX0NIT1JVU19FTkFCTEVfSUQiIHZhbHVlPSIwLjAiLz48UEFSQU0gaWQ9IlpPTkVfQ0hPUlVTX0ZSRVFfSUQiIHZhbHVlPSIwLjEyMDAwMDAwNDc2ODM3MTYiLz48UEFSQU0gaWQ9IlpPTkVfQ0hPUlVTX1dJRFRIX0lEIiB2YWx1ZT0iMzAuMCIvPjxQQVJBTSBpZD0iWk9ORV9FTkFCTEVfSUQiIHZhbHVlPSIxLjAiLz48UEFSQU0gaWQ9IlpPTkVfRV9QSUFOT19EQU1QX0xFVkVMX0lEIiB2YWx1ZT0iMC41Ii8+PFBBUkFNIGlkPSJaT05FX0VfUElBTk9fVElORV9MRVZFTF9JRCIgdmFsdWU9IjAuNSIvPjxQQVJBTSBpZD0iWk9ORV9FX1BJQU5PX1RPTkVfTEVWRUxfSUQiIHZhbHVlPSIwLjUiLz48UEFSQU0gaWQ9IlpPTkVfRkxBTkdFUl9ERVBUSF9JRCIgdmFsdWU9IjUwLjAiLz48UEFSQU0gaWQ9IlpPTkVfRkxBTkdFUl9FTkFCTEVfSUQiIHZhbHVlPSIwLjAiLz48UEFSQU0gaWQ9IlpPTkVfRkxBTkdFUl9GREJLX0lEIiB2YWx1ZT0iMC42NTAwMDAwMzU3NjI3ODY5Ii8+PFBBUkFNIGlkPSJaT05FX0ZMQU5HRVJfRlJFUV9JRCIgdmFsdWU9IjAuMTUwMDAwMDIwODYxNjI1NyIvPjxQQVJBTSBpZD0iWk9ORV9HQUlOX0lEIiB2YWx1ZT0iMC42OTk5OTk5ODgwNzkwNzEiLz48UEFSQU0gaWQ9IlpPTkVfR0VORVJJQ19BVFRBQ0tfSUQiIHZhbHVlPSIwLjUiLz48UEFSQU0gaWQ9IlpPTkVfR0VORVJJQ19DVVRPRkZfSUQiIHZhbHVlPSIwLjUiLz48UEFSQU0gaWQ9IlpPTkVfR0VORVJJQ19SRUxFQVNFX0lEIiB2YWx1ZT0iMC41Ii8+PFBBUkFNIGlkPSJaT05FX0dFTkVSSUNfUkVTT05fSUQiIHZhbHVlPSIwLjUiLz48UEFSQU0gaWQ9IlpPTkVfTUFTVEVSX0RFTEFZX1NFTkRfSUQiIHZhbHVlPSIwLjUiLz48UEFSQU0gaWQ9IlpPTkVfTUFTVEVSX1JFVkVSQl9TRU5EX0lEIiB2YWx1ZT0iMC41Ii8+PFBBUkFNIGlkPSJaT05FX1BIQVNFUl9ERVBUSF9JRCIgdmFsdWU9Ijc5Ljk5OTk5MjM3MDYwNTQ3Ii8+PFBBUkFNIGlkPSJaT05FX1BIQVNFUl9FTkFCTEVfSUQiIHZhbHVlPSIwLjAiLz48UEFSQU0gaWQ9IlpPTkVfUEhBU0VSX0ZEQktfSUQiIHZhbHVlPSIwLjUiLz48UEFSQU0gaWQ9IlpPTkVfUEhBU0VSX0ZSRVFfSUQiIHZhbHVlPSIwLjYzOTk5OTk4NTY5NDg4NTMiLz48UEFSQU0gaWQ9IlpPTkVfUk9UQVJZX0FDQ0VMX0lEX0lEIiB2YWx1ZT0iMC4wIi8+PFBBUkFNIGlkPSJaT05FX1JPVEFSWV9BTV9GQktfSUQiIHZhbHVlPSIwLjUiLz48UEFSQU0gaWQ9IlpPTkVfUk9UQVJZX0VOQUJMRV9JRCIgdmFsdWU9IjAuMCIvPjxQQVJBTSBpZD0iWk9ORV9ST1RBUllfUEFOX0lEIiB2YWx1ZT0iMC41Ii8+PFBBUkFNIGlkPSJaT05FX1RSRU1PTE9fREVQVEhfSUQiIHZhbHVlPSIwLjUiLz48UEFSQU0gaWQ9IlpPTkVfVFJFTU9MT19FTkFCTEVfSUQiIHZhbHVlPSIwLjAiLz48UEFSQU0gaWQ9IlpPTkVfVFJFTU9MT19GUkVRX0lEIiB2YWx1ZT0iMi4wIi8+PFBBUkFNIGlkPSJaT05FX1RSRU1PTE9fUEFOX0lEIiB2YWx1ZT0iMC41Ii8+PFBBUkFNIGlkPSJaT05FX1RVTklOR19JRCIgdmFsdWU9IjQ0MC4wIi8+PC9aT05FX1NUQVRFPjwvTUFJTl9TVEFURT4AAAAAAAAAAABKVUNFUHJpdmF0ZURhdGEAAQFCeXBhc3MAAQEDAB0AAAAAAAAASlVDRVByaXZhdGVEYXRh",
+                    "controllerState": ""
                 }
             },
             "instrumentId": "grand-piano",
             "out": {
-                "balance": 0,
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.38999998569488525
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0
+                    }
+                ],
+                "balance": 0.33000001311302185,
                 "fxChain": {
                 },
-                "volumeDb": 0
+                "volumeDb": 6.699999809265137
             },
             "partId": "12",
             "soloMuteState": {
@@ -354,7 +538,7 @@
                         "playbackSetupData": "winds.horn.french:in_a:section"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Brass\\Horns a6\\96",
+                    "id": "96",
                     "type": "muse_sampler_sound_pack",
                     "vendor": "Muse Brass"
                 },
@@ -363,10 +547,20 @@
             },
             "instrumentId": "trombone-treble",
             "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.4000000059604645
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
                 "balance": 0,
                 "fxChain": {
                 },
-                "volumeDb": 0.699999988079071
+                "volumeDb": -4.699999809265137
             },
             "partId": "6",
             "soloMuteState": {
@@ -384,7 +578,7 @@
                         "playbackSetupData": "percussions.cymbal.metal"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Percussion\\Piatti\\148",
+                    "id": "148",
                     "type": "muse_sampler_sound_pack",
                     "vendor": "Muse Percussion"
                 },
@@ -393,6 +587,16 @@
             },
             "instrumentId": "crash-cymbal",
             "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
                 "balance": 0,
                 "fxChain": {
                 },
@@ -409,20 +613,32 @@
                 "resourceMeta": {
                     "attributes": {
                         "museCategory": "Muse Brass",
-                        "museName": "Trumpets",
-                        "museUID": "109",
-                        "playbackSetupData": "winds.trumpet.section"
+                        "museName": "Trumpet",
+                        "musePack": "Muse Brass",
+                        "museUID": "110",
+                        "museVendorName": "Muse",
+                        "playbackSetupData": "winds.trumpet"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Brass\\Trumpets\\109",
+                    "id": "110",
                     "type": "muse_sampler_sound_pack",
-                    "vendor": "Muse Brass"
+                    "vendor": "MuseSounds"
                 },
                 "unitConfiguration": {
                 }
             },
             "instrumentId": "trumpet",
             "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.4000000059604645
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
                 "balance": 0,
                 "fxChain": {
                 },
@@ -438,17 +654,33 @@
             "in": {
                 "resourceMeta": {
                     "attributes": {
+                        "museCategory": "Muse Strings",
+                        "museName": "Violins 2",
+                        "musePack": "Muse Strings",
+                        "museUID": "92",
+                        "museVendorName": "Muse",
+                        "playbackSetupData": "strings.violin.orchestral:secondary:section"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "MS Basic",
-                    "type": "fluid_soundfont",
-                    "vendor": "Fluid"
+                    "id": "92",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "MuseSounds"
                 },
                 "unitConfiguration": {
                 }
             },
             "instrumentId": "strings",
             "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
                 "balance": 0,
                 "fxChain": {
                 },
@@ -470,7 +702,7 @@
                         "playbackSetupData": "winds.tuba"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Brass\\Tuba\\115",
+                    "id": "115",
                     "type": "muse_sampler_sound_pack",
                     "vendor": "Muse Brass"
                 },
@@ -479,6 +711,16 @@
             },
             "instrumentId": "tuba",
             "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.4000000059604645
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
                 "balance": 0,
                 "fxChain": {
                 },
@@ -500,7 +742,7 @@
                         "playbackSetupData": "strings.violoncello.orchestral:section"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Strings\\Violoncellos\\94",
+                    "id": "94",
                     "type": "muse_sampler_sound_pack",
                     "vendor": "Muse Strings"
                 },
@@ -509,7 +751,17 @@
             },
             "instrumentId": "violoncellos",
             "out": {
-                "balance": 0,
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0.2800000011920929,
                 "fxChain": {
                 },
                 "volumeDb": 5.300000190734863
@@ -530,7 +782,7 @@
                         "playbackSetupData": "percussions.cymbal.crash:metal"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Percussion\\Sus. Cymbal\\151",
+                    "id": "151",
                     "type": "muse_sampler_sound_pack",
                     "vendor": "Muse Percussion"
                 },
@@ -539,6 +791,16 @@
             },
             "instrumentId": "cymbal",
             "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.20000000298023224
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
                 "balance": 0,
                 "fxChain": {
                 },
@@ -560,7 +822,7 @@
                         "playbackSetupData": "strings.violin.orchestral:secondary:section"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Strings\\Violins 2\\92",
+                    "id": "92",
                     "type": "muse_sampler_sound_pack",
                     "vendor": "Muse Strings"
                 },
@@ -569,42 +831,22 @@
             },
             "instrumentId": "violins",
             "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
                 "balance": 0,
                 "fxChain": {
                 },
                 "volumeDb": 5.300000190734863
             },
             "partId": "20",
-            "soloMuteState": {
-                "mute": false,
-                "solo": false
-            }
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
-                        "museCategory": "Muse Percussion",
-                        "museName": "Toms",
-                        "museUID": "157",
-                        "playbackSetupData": "percussions.tom_toms"
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "Muse Percussion\\Toms\\157",
-                    "type": "muse_sampler_sound_pack",
-                    "vendor": "Muse Percussion"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "tom-toms",
-            "out": {
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 5.300000190734863
-            },
-            "partId": "24",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -625,6 +867,16 @@
             },
             "instrumentId": "strings",
             "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
                 "balance": 0,
                 "fxChain": {
                 },
@@ -651,6 +903,16 @@
             },
             "instrumentId": "strings",
             "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
                 "balance": 0,
                 "fxChain": {
                 },
@@ -666,51 +928,37 @@
             "in": {
                 "resourceMeta": {
                     "attributes": {
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "MS Basic",
-                    "type": "fluid_soundfont",
-                    "vendor": "Fluid"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "strings",
-            "out": {
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 0
-            },
-            "partId": "16",
-            "soloMuteState": {
-                "mute": false,
-                "solo": false
-            }
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
                         "museCategory": "Muse Strings",
-                        "museName": "Violins 2",
-                        "museUID": "92",
-                        "playbackSetupData": "strings.violin.orchestral:secondary:section"
+                        "museName": "Violins 1",
+                        "musePack": "Muse Strings",
+                        "museUID": "91",
+                        "museVendorName": "Muse",
+                        "playbackSetupData": "strings.violin.orchestral:primary:section"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Strings\\Violins 2\\92",
+                    "id": "91",
                     "type": "muse_sampler_sound_pack",
-                    "vendor": "Muse Strings"
+                    "vendor": "MuseSounds"
                 },
                 "unitConfiguration": {
                 }
             },
             "instrumentId": "violins",
             "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
                 "balance": 0,
                 "fxChain": {
                 },
-                "volumeDb": 5.300000190734863
+                "volumeDb": -2.700000047683716
             },
             "partId": "17",
             "soloMuteState": {
@@ -728,7 +976,7 @@
                         "playbackSetupData": "strings.contrabass.orchestral:section"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Strings\\Contrabasses\\95",
+                    "id": "95",
                     "type": "muse_sampler_sound_pack",
                     "vendor": "Muse Strings"
                 },
@@ -737,10 +985,20 @@
             },
             "instrumentId": "contrabasses",
             "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
                 "balance": 0,
                 "fxChain": {
                 },
-                "volumeDb": 6
+                "volumeDb": 1.2999999523162842
             },
             "partId": "22",
             "soloMuteState": {
@@ -758,7 +1016,7 @@
                         "playbackSetupData": "percussions.drum.snare"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Percussion\\Snare Drum\\150",
+                    "id": "150",
                     "type": "muse_sampler_sound_pack",
                     "vendor": "Muse Percussion"
                 },
@@ -767,12 +1025,147 @@
             },
             "instrumentId": "snare-drum",
             "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.10000000149011612
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": -5.300000190734863
+            },
+            "partId": "23",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "playbackSetupData": "last.last.last",
+                        "presetBank": "0",
+                        "presetName": "Strings Pizzicato",
+                        "presetProgram": "45",
+                        "soundFontName": "MS Basic"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "MS Basic\\0\\45",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "violoncellos",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 4
+            },
+            "partId": "16",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "museCategory": "Muse Strings",
+                        "museName": "Contrabasses",
+                        "musePack": "Muse Strings",
+                        "museUID": "95",
+                        "museVendorName": "Muse",
+                        "playbackSetupData": "strings.contrabass.orchestral:section"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "95",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "MuseSounds"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "contrabasses",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
                 "balance": 0,
                 "fxChain": {
                 },
                 "volumeDb": 0
             },
-            "partId": "23",
+            "partId": "27",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "museCategory": "Muse Percussion",
+                        "museName": "Timpani",
+                        "musePack": "Muse Percussion",
+                        "museUID": "156",
+                        "museVendorName": "Muse",
+                        "playbackSetupData": "percussions.timpani"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "156",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "MuseSounds"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "timpani",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.20000000298023224
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "24",
             "soloMuteState": {
                 "mute": false,
                 "solo": false

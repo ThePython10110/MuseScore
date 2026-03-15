@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<container>
+  <rootfiles>
+    <rootfile full-path="score_style.mss"/>
+    <rootfile full-path="town.mscx"/>
+    <rootfile full-path="Excerpts/0_Acoustic_Guitar/0_Acoustic_Guitar.mss"/>
+    <rootfile full-path="Excerpts/0_Acoustic_Guitar/0_Acoustic_Guitar.mscx"/>
+    <rootfile full-path="Excerpts/1_Electric_Guitar/1_Electric_Guitar.mss"/>
+    <rootfile full-path="Excerpts/1_Electric_Guitar/1_Electric_Guitar.mscx"/>
+    <rootfile full-path="Excerpts/2_Accordion/2_Accordion.mss"/>
+    <rootfile full-path="Excerpts/2_Accordion/2_Accordion.mscx"/>
+    <rootfile full-path="Excerpts/3_Erhu/3_Erhu.mss"/>
+    <rootfile full-path="Excerpts/3_Erhu/3_Erhu.mscx"/>
+    <rootfile full-path="Excerpts/4_Erhu_(1)/4_Erhu_(1).mss"/>
+    <rootfile full-path="Excerpts/4_Erhu_(1)/4_Erhu_(1).mscx"/>
+    <rootfile full-path="Excerpts/5_Trumpet/5_Trumpet.mss"/>
+    <rootfile full-path="Excerpts/5_Trumpet/5_Trumpet.mscx"/>
+    <rootfile full-path="Excerpts/6_Brass/6_Brass.mss"/>
+    <rootfile full-path="Excerpts/6_Brass/6_Brass.mscx"/>
+    <rootfile full-path="Excerpts/7_Alto_Saxophone/7_Alto_Saxophone.mss"/>
+    <rootfile full-path="Excerpts/7_Alto_Saxophone/7_Alto_Saxophone.mscx"/>
+    <rootfile full-path="Excerpts/8_5-str._Electric_Bass/8_5-str._Electric_Bass.mss"/>
+    <rootfile full-path="Excerpts/8_5-str._Electric_Bass/8_5-str._Electric_Bass.mscx"/>
+    <rootfile full-path="Excerpts/9_Bass_Guitar/9_Bass_Guitar.mss"/>
+    <rootfile full-path="Excerpts/9_Bass_Guitar/9_Bass_Guitar.mscx"/>
+    <rootfile full-path="Excerpts/10_Large_Drum_Kit/10_Large_Drum_Kit.mss"/>
+    <rootfile full-path="Excerpts/10_Large_Drum_Kit/10_Large_Drum_Kit.mscx"/>
+    <rootfile full-path="Thumbnails/thumbnail.png"/>
+    <rootfile full-path="audiosettings.json"/>
+    <rootfile full-path="viewsettings.json"/>
+    <rootfile full-path="Excerpts/0_Acoustic_Guitar/viewsettings.json"/>
+    <rootfile full-path="Excerpts/0_Acoustic_Guitar/audiosettings.json"/>
+    <rootfile full-path="Excerpts/1_Electric_Guitar/viewsettings.json"/>
+    <rootfile full-path="Excerpts/1_Electric_Guitar/audiosettings.json"/>
+    <rootfile full-path="Excerpts/2_Accordion/viewsettings.json"/>
+    <rootfile full-path="Excerpts/2_Accordion/audiosettings.json"/>
+    <rootfile full-path="Excerpts/3_Erhu/viewsettings.json"/>
+    <rootfile full-path="Excerpts/3_Erhu/audiosettings.json"/>
+    <rootfile full-path="Excerpts/4_Erhu_(1)/viewsettings.json"/>
+    <rootfile full-path="Excerpts/4_Erhu_(1)/audiosettings.json"/>
+    <rootfile full-path="Excerpts/5_Trumpet/viewsettings.json"/>
+    <rootfile full-path="Excerpts/5_Trumpet/audiosettings.json"/>
+    <rootfile full-path="Excerpts/6_Brass/viewsettings.json"/>
+    <rootfile full-path="Excerpts/6_Brass/audiosettings.json"/>
+    <rootfile full-path="Excerpts/7_Alto_Saxophone/viewsettings.json"/>
+    <rootfile full-path="Excerpts/7_Alto_Saxophone/audiosettings.json"/>
+    <rootfile full-path="Excerpts/8_5-str._Electric_Bass/viewsettings.json"/>
+    <rootfile full-path="Excerpts/8_5-str._Electric_Bass/audiosettings.json"/>
+    <rootfile full-path="Excerpts/9_Bass_Guitar/viewsettings.json"/>
+    <rootfile full-path="Excerpts/9_Bass_Guitar/audiosettings.json"/>
+    <rootfile full-path="Excerpts/10_Large_Drum_Kit/viewsettings.json"/>
+    <rootfile full-path="Excerpts/10_Large_Drum_Kit/audiosettings.json"/>
+    </rootfiles>
+  </container>
